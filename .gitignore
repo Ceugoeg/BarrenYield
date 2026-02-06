@@ -1,37 +1,40 @@
-# 1. Godot 引擎缓存
+# ============================
+# 1. 编译中间产物
+# ============================
+# 不管在哪一层目录，只要是 .o 或 .os 结尾的都不要
+*.o
+*.os
+*.obj
+
+# ============================
+# 2. 二进制库文件
+# ============================
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exp
+*.pdb
+
+# ============================
+# 3. Godot 引擎缓存
+# ============================
 .godot/
 .import/
 export_presets.cfg
 
-# 2. CLion/IDE 配置文件
+# ============================
+# 4. IDE 配置 (CLion/VSCode)
+# ============================
 .idea/
-.clwb/
+.vscode/
 cmake-build-debug/
+cmake-build-release/
 *.iml
 
-# 3. C++ 编译生成的二进制文件
-bin/**/*.so
-bin/**/*.dll
-bin/**/*.dylib
-bin/**/*.exp
-bin/**/*.lib
-bin/**/*.pdb
-
-# 保留 .gdextension 配置文件
-!bin/*.gdextension
-
-# 4. SCons 编译过程中的中间文件
-src/**/*.o
-src/**/*.os
-src/**/*.obj
-.scons_env
-.sconsign.dblite
-
-# 5. godot-cpp 特殊处理：保留 godot-cpp 的源码 (src, include, gen 等)，但忽略它编译出的静态库
-godot-cpp/bin/
-godot-cpp/**/*.o
-godot-cpp/**/*.os
-
-# 6. 系统垃圾文件
+# ============================
+# 5. 系统垃圾
+# ============================
 .DS_Store
 Thumbs.db
