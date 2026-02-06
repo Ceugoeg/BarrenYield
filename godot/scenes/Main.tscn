@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://cf4josvlj3d2h"]
+
+[ext_resource type="Script" uid="uid://0edec276ogyd" path="res://scenes/main.gd" id="1_elqb8"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_elqb8"]
+bg_color = Color(0, 0, 0, 0.3137255)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rvslj"]
+bg_color = Color(0, 0, 0, 0.3137255)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1, 1, 1, 0.31764707)
+
+[node name="GameManager" type="GameManager" unique_id=818729501]
+script = ExtResource("1_elqb8")
+
+[node name="ResourceRegistry" type="ResourceRegistry" parent="." unique_id=1056309908]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=507059169]
+
+[node name="HUD" type="Control" parent="CanvasLayer" unique_id=1061457898]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/HUD" unique_id=540408293]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/HUD/HBoxContainer" unique_id=559218171]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="LogBox" type="RichTextLabel" parent="CanvasLayer/HUD/HBoxContainer/VBoxContainer" unique_id=984257910]
+custom_minimum_size = Vector2(0, 500)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_elqb8")
+bbcode_enabled = true
+
+[node name="LineEdit" type="LineEdit" parent="CanvasLayer/HUD/HBoxContainer/VBoxContainer" unique_id=1003726651]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_rvslj")
+deselect_on_focus_loss_enabled = false
+
+[node name="Control" type="Control" parent="CanvasLayer/HUD/HBoxContainer" unique_id=458705387]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ItemList" type="ItemList" parent="CanvasLayer/HUD/HBoxContainer" unique_id=1760322398]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2

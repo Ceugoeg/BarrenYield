@@ -1,0 +1,23 @@
+[
+  {
+    "id": "coal",
+    "name": "Coal",
+    "base_value": 10.0,
+    "is_fuel": true,
+    "fuel_energy": 50.0
+  },
+  {
+    "id": "iron_ore",
+    "name": "Iron ore",
+    "base_value": 15.0,
+    "is_fuel": false,
+    "fuel_energy": 0.0
+  },
+  {
+    "id": "wheat",
+    "name": "Wheat",
+    "base_value": 5.0,
+    "is_fuel": true,
+    "fuel_energy": 1.0
+  }
+]

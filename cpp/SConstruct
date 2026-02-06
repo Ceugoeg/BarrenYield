@@ -1,0 +1,39 @@
+#!/usr/bin/env python
+import os
+import sys
+
+# 1. 加载 Godot-CPP 的构建配置
+env = SConscript("godot-cpp/SConstruct")
+
+# 2. 配置头文件路径 (CPPPATH)
+# 告诉编译器去哪里找 .h 文件
+# - include/ : 我们自己的头文件
+# - godot-cpp/include/ : Godot 核心绑定
+# - godot-cpp/gen/include/ : Godot 生成的绑定
+env.Append(CPPPATH=["include/", "godot-cpp/include/", "godot-cpp/gen/include/"])
+
+# 3. 【关键】配置源文件 (Source Files)
+# 递归查找 src/ 目录下所有的 .cpp 文件
+sources = Glob("src/*.cpp") + Glob("src/*/*.cpp")
+
+# 4. 定义库名称 (Library Name)
+# 最终文件名会自动拼接为: libbarrenyield.<平台>.<目标>.<架构>.so
+library_name = "barrenyield"
+
+# 5. 构建规则 (适配 MacOS 和 Linux/Windows)
+if env["platform"] == "macos":
+    library = env.SharedLibrary(
+        "../godot/bin/{}.{}.{}.framework/{}".format(
+            library_name, env["platform"], env["target"], library_name
+        ),
+        source=sources,
+    )
+else:
+    library = env.SharedLibrary(
+        "../godot/bin/{}{}{}".format(
+            library_name, env["suffix"], env["SHLIBSUFFIX"]
+        ),
+        source=sources,
+    )
+
+Default(library)

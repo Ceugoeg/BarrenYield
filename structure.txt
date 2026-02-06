@@ -1,0 +1,3011 @@
+.
+├── cpp
+│   ├── cmake-build-debug
+│   │   ├── build.ninja
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   │   ├── 4.0.2
+│   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   ├── CompilerIdC
+│   │   │   │   │   ├── a.out
+│   │   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   │   └── tmp
+│   │   │   │   └── CompilerIdCXX
+│   │   │   │       ├── a.out
+│   │   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │   │       └── tmp
+│   │   │   ├── barren_yield.dir
+│   │   │   │   └── src
+│   │   │   │       ├── core
+│   │   │   │       │   ├── GameManager.cpp.o
+│   │   │   │       │   └── ResourceRegistry.cpp.o
+│   │   │   │       ├── economy
+│   │   │   │       └── utils
+│   │   │   ├── clion-Debug-log.txt
+│   │   │   ├── clion-environment.txt
+│   │   │   ├── cmake.check_cache
+│   │   │   ├── CMakeConfigureLog.yaml
+│   │   │   ├── InstallScripts.json
+│   │   │   ├── pkgRedirects
+│   │   │   ├── rules.ninja
+│   │   │   └── TargetDirectories.txt
+│   │   ├── cmake_install.cmake
+│   │   └── Testing
+│   │       └── Temporary
+│   │           └── LastTest.log
+│   ├── CMakeLists.txt
+│   ├── godot-cpp
+│   │   ├── bin
+│   │   │   └── libgodot-cpp.linux.template_debug.x86_64.a
+│   │   ├── binding_generator.py
+│   │   ├── build_profile.py
+│   │   ├── cmake
+│   │   │   ├── common_compiler_flags.cmake
+│   │   │   └── godotcpp.cmake
+│   │   ├── CMakeLists.txt
+│   │   ├── doc
+│   │   │   └── cmake.md
+│   │   ├── gdextension
+│   │   │   ├── extension_api.json
+│   │   │   ├── gdextension_interface.h
+│   │   │   └── README.md
+│   │   ├── gen
+│   │   │   ├── include
+│   │   │   │   └── godot_cpp
+│   │   │   │       ├── classes
+│   │   │   │       │   ├── accept_dialog.hpp
+│   │   │   │       │   ├── aes_context.hpp
+│   │   │   │       │   ├── animatable_body2d.hpp
+│   │   │   │       │   ├── animatable_body3d.hpp
+│   │   │   │       │   ├── animated_sprite2d.hpp
+│   │   │   │       │   ├── animated_sprite3d.hpp
+│   │   │   │       │   ├── animated_texture.hpp
+│   │   │   │       │   ├── animation.hpp
+│   │   │   │       │   ├── animation_library.hpp
+│   │   │   │       │   ├── animation_mixer.hpp
+│   │   │   │       │   ├── animation_node_add2.hpp
+│   │   │   │       │   ├── animation_node_add3.hpp
+│   │   │   │       │   ├── animation_node_animation.hpp
+│   │   │   │       │   ├── animation_node_blend2.hpp
+│   │   │   │       │   ├── animation_node_blend3.hpp
+│   │   │   │       │   ├── animation_node_blend_space1_d.hpp
+│   │   │   │       │   ├── animation_node_blend_space2d.hpp
+│   │   │   │       │   ├── animation_node_blend_tree.hpp
+│   │   │   │       │   ├── animation_node.hpp
+│   │   │   │       │   ├── animation_node_one_shot.hpp
+│   │   │   │       │   ├── animation_node_output.hpp
+│   │   │   │       │   ├── animation_node_state_machine.hpp
+│   │   │   │       │   ├── animation_node_state_machine_playback.hpp
+│   │   │   │       │   ├── animation_node_state_machine_transition.hpp
+│   │   │   │       │   ├── animation_node_sub2.hpp
+│   │   │   │       │   ├── animation_node_sync.hpp
+│   │   │   │       │   ├── animation_node_time_scale.hpp
+│   │   │   │       │   ├── animation_node_time_seek.hpp
+│   │   │   │       │   ├── animation_node_transition.hpp
+│   │   │   │       │   ├── animation_player.hpp
+│   │   │   │       │   ├── animation_root_node.hpp
+│   │   │   │       │   ├── animation_tree.hpp
+│   │   │   │       │   ├── area2d.hpp
+│   │   │   │       │   ├── area3d.hpp
+│   │   │   │       │   ├── array_mesh.hpp
+│   │   │   │       │   ├── array_occluder3d.hpp
+│   │   │   │       │   ├── aspect_ratio_container.hpp
+│   │   │   │       │   ├── a_star2d.hpp
+│   │   │   │       │   ├── a_star3d.hpp
+│   │   │   │       │   ├── a_star_grid2d.hpp
+│   │   │   │       │   ├── atlas_texture.hpp
+│   │   │   │       │   ├── audio_bus_layout.hpp
+│   │   │   │       │   ├── audio_effect_amplify.hpp
+│   │   │   │       │   ├── audio_effect_band_limit_filter.hpp
+│   │   │   │       │   ├── audio_effect_band_pass_filter.hpp
+│   │   │   │       │   ├── audio_effect_capture.hpp
+│   │   │   │       │   ├── audio_effect_chorus.hpp
+│   │   │   │       │   ├── audio_effect_compressor.hpp
+│   │   │   │       │   ├── audio_effect_delay.hpp
+│   │   │   │       │   ├── audio_effect_distortion.hpp
+│   │   │   │       │   ├── audio_effect_eq10.hpp
+│   │   │   │       │   ├── audio_effect_eq21.hpp
+│   │   │   │       │   ├── audio_effect_eq6.hpp
+│   │   │   │       │   ├── audio_effect_eq.hpp
+│   │   │   │       │   ├── audio_effect_filter.hpp
+│   │   │   │       │   ├── audio_effect_high_pass_filter.hpp
+│   │   │   │       │   ├── audio_effect_high_shelf_filter.hpp
+│   │   │   │       │   ├── audio_effect.hpp
+│   │   │   │       │   ├── audio_effect_instance.hpp
+│   │   │   │       │   ├── audio_effect_limiter.hpp
+│   │   │   │       │   ├── audio_effect_low_pass_filter.hpp
+│   │   │   │       │   ├── audio_effect_low_shelf_filter.hpp
+│   │   │   │       │   ├── audio_effect_notch_filter.hpp
+│   │   │   │       │   ├── audio_effect_panner.hpp
+│   │   │   │       │   ├── audio_effect_phaser.hpp
+│   │   │   │       │   ├── audio_effect_pitch_shift.hpp
+│   │   │   │       │   ├── audio_effect_record.hpp
+│   │   │   │       │   ├── audio_effect_reverb.hpp
+│   │   │   │       │   ├── audio_effect_spectrum_analyzer.hpp
+│   │   │   │       │   ├── audio_effect_spectrum_analyzer_instance.hpp
+│   │   │   │       │   ├── audio_effect_stereo_enhance.hpp
+│   │   │   │       │   ├── audio_frame.hpp
+│   │   │   │       │   ├── audio_listener2d.hpp
+│   │   │   │       │   ├── audio_listener3d.hpp
+│   │   │   │       │   ├── audio_server.hpp
+│   │   │   │       │   ├── audio_stream_generator.hpp
+│   │   │   │       │   ├── audio_stream_generator_playback.hpp
+│   │   │   │       │   ├── audio_stream.hpp
+│   │   │   │       │   ├── audio_stream_microphone.hpp
+│   │   │   │       │   ├── audio_stream_mp3.hpp
+│   │   │   │       │   ├── audio_stream_ogg_vorbis.hpp
+│   │   │   │       │   ├── audio_stream_playback.hpp
+│   │   │   │       │   ├── audio_stream_playback_ogg_vorbis.hpp
+│   │   │   │       │   ├── audio_stream_playback_polyphonic.hpp
+│   │   │   │       │   ├── audio_stream_playback_resampled.hpp
+│   │   │   │       │   ├── audio_stream_player2d.hpp
+│   │   │   │       │   ├── audio_stream_player3d.hpp
+│   │   │   │       │   ├── audio_stream_player.hpp
+│   │   │   │       │   ├── audio_stream_polyphonic.hpp
+│   │   │   │       │   ├── audio_stream_randomizer.hpp
+│   │   │   │       │   ├── audio_stream_wav.hpp
+│   │   │   │       │   ├── back_buffer_copy.hpp
+│   │   │   │       │   ├── base_button.hpp
+│   │   │   │       │   ├── base_material3d.hpp
+│   │   │   │       │   ├── bit_map.hpp
+│   │   │   │       │   ├── bone2d.hpp
+│   │   │   │       │   ├── bone_attachment3d.hpp
+│   │   │   │       │   ├── bone_map.hpp
+│   │   │   │       │   ├── box_container.hpp
+│   │   │   │       │   ├── box_mesh.hpp
+│   │   │   │       │   ├── box_occluder3d.hpp
+│   │   │   │       │   ├── box_shape3d.hpp
+│   │   │   │       │   ├── button_group.hpp
+│   │   │   │       │   ├── button.hpp
+│   │   │   │       │   ├── callback_tweener.hpp
+│   │   │   │       │   ├── camera2d.hpp
+│   │   │   │       │   ├── camera3d.hpp
+│   │   │   │       │   ├── camera_attributes.hpp
+│   │   │   │       │   ├── camera_attributes_physical.hpp
+│   │   │   │       │   ├── camera_attributes_practical.hpp
+│   │   │   │       │   ├── camera_feed.hpp
+│   │   │   │       │   ├── camera_server.hpp
+│   │   │   │       │   ├── camera_texture.hpp
+│   │   │   │       │   ├── canvas_group.hpp
+│   │   │   │       │   ├── canvas_item.hpp
+│   │   │   │       │   ├── canvas_item_material.hpp
+│   │   │   │       │   ├── canvas_layer.hpp
+│   │   │   │       │   ├── canvas_modulate.hpp
+│   │   │   │       │   ├── canvas_texture.hpp
+│   │   │   │       │   ├── capsule_mesh.hpp
+│   │   │   │       │   ├── capsule_shape2d.hpp
+│   │   │   │       │   ├── capsule_shape3d.hpp
+│   │   │   │       │   ├── caret_info.hpp
+│   │   │   │       │   ├── center_container.hpp
+│   │   │   │       │   ├── character_body2d.hpp
+│   │   │   │       │   ├── character_body3d.hpp
+│   │   │   │       │   ├── char_fx_transform.hpp
+│   │   │   │       │   ├── check_box.hpp
+│   │   │   │       │   ├── check_button.hpp
+│   │   │   │       │   ├── circle_shape2d.hpp
+│   │   │   │       │   ├── class_db_singleton.hpp
+│   │   │   │       │   ├── code_edit.hpp
+│   │   │   │       │   ├── code_highlighter.hpp
+│   │   │   │       │   ├── collision_object2d.hpp
+│   │   │   │       │   ├── collision_object3d.hpp
+│   │   │   │       │   ├── collision_polygon2d.hpp
+│   │   │   │       │   ├── collision_polygon3d.hpp
+│   │   │   │       │   ├── collision_shape2d.hpp
+│   │   │   │       │   ├── collision_shape3d.hpp
+│   │   │   │       │   ├── color_picker_button.hpp
+│   │   │   │       │   ├── color_picker.hpp
+│   │   │   │       │   ├── color_rect.hpp
+│   │   │   │       │   ├── compressed_cubemap_array.hpp
+│   │   │   │       │   ├── compressed_cubemap.hpp
+│   │   │   │       │   ├── compressed_texture2d_array.hpp
+│   │   │   │       │   ├── compressed_texture2d.hpp
+│   │   │   │       │   ├── compressed_texture3d.hpp
+│   │   │   │       │   ├── compressed_texture_layered.hpp
+│   │   │   │       │   ├── concave_polygon_shape2d.hpp
+│   │   │   │       │   ├── concave_polygon_shape3d.hpp
+│   │   │   │       │   ├── cone_twist_joint3d.hpp
+│   │   │   │       │   ├── config_file.hpp
+│   │   │   │       │   ├── confirmation_dialog.hpp
+│   │   │   │       │   ├── container.hpp
+│   │   │   │       │   ├── control.hpp
+│   │   │   │       │   ├── convex_polygon_shape2d.hpp
+│   │   │   │       │   ├── convex_polygon_shape3d.hpp
+│   │   │   │       │   ├── cpu_particles2d.hpp
+│   │   │   │       │   ├── cpu_particles3d.hpp
+│   │   │   │       │   ├── crypto.hpp
+│   │   │   │       │   ├── crypto_key.hpp
+│   │   │   │       │   ├── csg_box3d.hpp
+│   │   │   │       │   ├── csg_combiner3d.hpp
+│   │   │   │       │   ├── csg_cylinder3d.hpp
+│   │   │   │       │   ├── csg_mesh3d.hpp
+│   │   │   │       │   ├── csg_polygon3d.hpp
+│   │   │   │       │   ├── csg_primitive3d.hpp
+│   │   │   │       │   ├── csg_shape3d.hpp
+│   │   │   │       │   ├── csg_sphere3d.hpp
+│   │   │   │       │   ├── csg_torus3d.hpp
+│   │   │   │       │   ├── cubemap_array.hpp
+│   │   │   │       │   ├── cubemap.hpp
+│   │   │   │       │   ├── curve2d.hpp
+│   │   │   │       │   ├── curve3d.hpp
+│   │   │   │       │   ├── curve.hpp
+│   │   │   │       │   ├── curve_texture.hpp
+│   │   │   │       │   ├── curve_xyz_texture.hpp
+│   │   │   │       │   ├── cylinder_mesh.hpp
+│   │   │   │       │   ├── cylinder_shape3d.hpp
+│   │   │   │       │   ├── damped_spring_joint2d.hpp
+│   │   │   │       │   ├── decal.hpp
+│   │   │   │       │   ├── dir_access.hpp
+│   │   │   │       │   ├── directional_light2d.hpp
+│   │   │   │       │   ├── directional_light3d.hpp
+│   │   │   │       │   ├── display_server.hpp
+│   │   │   │       │   ├── dtls_server.hpp
+│   │   │   │       │   ├── editor_command_palette.hpp
+│   │   │   │       │   ├── editor_debugger_plugin.hpp
+│   │   │   │       │   ├── editor_debugger_session.hpp
+│   │   │   │       │   ├── editor_export_platform_android.hpp
+│   │   │   │       │   ├── editor_export_platform.hpp
+│   │   │   │       │   ├── editor_export_platform_ios.hpp
+│   │   │   │       │   ├── editor_export_platform_linux_bsd.hpp
+│   │   │   │       │   ├── editor_export_platform_mac_os.hpp
+│   │   │   │       │   ├── editor_export_platform_pc.hpp
+│   │   │   │       │   ├── editor_export_platform_web.hpp
+│   │   │   │       │   ├── editor_export_platform_windows.hpp
+│   │   │   │       │   ├── editor_export_plugin.hpp
+│   │   │   │       │   ├── editor_feature_profile.hpp
+│   │   │   │       │   ├── editor_file_dialog.hpp
+│   │   │   │       │   ├── editor_file_system_directory.hpp
+│   │   │   │       │   ├── editor_file_system.hpp
+│   │   │   │       │   ├── editor_file_system_import_format_support_query.hpp
+│   │   │   │       │   ├── editor_import_plugin.hpp
+│   │   │   │       │   ├── editor_inspector.hpp
+│   │   │   │       │   ├── editor_inspector_plugin.hpp
+│   │   │   │       │   ├── editor_interface.hpp
+│   │   │   │       │   ├── editor_node3d_gizmo.hpp
+│   │   │   │       │   ├── editor_node3d_gizmo_plugin.hpp
+│   │   │   │       │   ├── editor_paths.hpp
+│   │   │   │       │   ├── editor_plugin.hpp
+│   │   │   │       │   ├── editor_property.hpp
+│   │   │   │       │   ├── editor_resource_conversion_plugin.hpp
+│   │   │   │       │   ├── editor_resource_picker.hpp
+│   │   │   │       │   ├── editor_resource_preview_generator.hpp
+│   │   │   │       │   ├── editor_resource_preview.hpp
+│   │   │   │       │   ├── editor_resource_tooltip_plugin.hpp
+│   │   │   │       │   ├── editor_scene_format_importer_blend.hpp
+│   │   │   │       │   ├── editor_scene_format_importer_fbx.hpp
+│   │   │   │       │   ├── editor_scene_format_importer_gltf.hpp
+│   │   │   │       │   ├── editor_scene_format_importer.hpp
+│   │   │   │       │   ├── editor_scene_post_import.hpp
+│   │   │   │       │   ├── editor_scene_post_import_plugin.hpp
+│   │   │   │       │   ├── editor_script.hpp
+│   │   │   │       │   ├── editor_script_picker.hpp
+│   │   │   │       │   ├── editor_selection.hpp
+│   │   │   │       │   ├── editor_settings.hpp
+│   │   │   │       │   ├── editor_spin_slider.hpp
+│   │   │   │       │   ├── editor_syntax_highlighter.hpp
+│   │   │   │       │   ├── editor_translation_parser_plugin.hpp
+│   │   │   │       │   ├── editor_undo_redo_manager.hpp
+│   │   │   │       │   ├── editor_vcs_interface.hpp
+│   │   │   │       │   ├── encoded_object_as_id.hpp
+│   │   │   │       │   ├── e_net_connection.hpp
+│   │   │   │       │   ├── e_net_multiplayer_peer.hpp
+│   │   │   │       │   ├── e_net_packet_peer.hpp
+│   │   │   │       │   ├── engine_debugger.hpp
+│   │   │   │       │   ├── engine.hpp
+│   │   │   │       │   ├── engine_profiler.hpp
+│   │   │   │       │   ├── environment.hpp
+│   │   │   │       │   ├── expression.hpp
+│   │   │   │       │   ├── fast_noise_lite.hpp
+│   │   │   │       │   ├── file_access.hpp
+│   │   │   │       │   ├── file_dialog.hpp
+│   │   │   │       │   ├── file_system_dock.hpp
+│   │   │   │       │   ├── flow_container.hpp
+│   │   │   │       │   ├── fog_material.hpp
+│   │   │   │       │   ├── fog_volume.hpp
+│   │   │   │       │   ├── font_file.hpp
+│   │   │   │       │   ├── font.hpp
+│   │   │   │       │   ├── font_variation.hpp
+│   │   │   │       │   ├── gd_extension.hpp
+│   │   │   │       │   ├── gd_extension_manager.hpp
+│   │   │   │       │   ├── gd_script.hpp
+│   │   │   │       │   ├── generic6_dof_joint3d.hpp
+│   │   │   │       │   ├── geometry2d.hpp
+│   │   │   │       │   ├── geometry3d.hpp
+│   │   │   │       │   ├── geometry_instance3d.hpp
+│   │   │   │       │   ├── global_constants_binds.hpp
+│   │   │   │       │   ├── global_constants.hpp
+│   │   │   │       │   ├── gltf_accessor.hpp
+│   │   │   │       │   ├── gltf_animation.hpp
+│   │   │   │       │   ├── gltf_buffer_view.hpp
+│   │   │   │       │   ├── gltf_camera.hpp
+│   │   │   │       │   ├── gltf_document_extension_convert_importer_mesh.hpp
+│   │   │   │       │   ├── gltf_document_extension.hpp
+│   │   │   │       │   ├── gltf_document.hpp
+│   │   │   │       │   ├── gltf_light.hpp
+│   │   │   │       │   ├── gltf_mesh.hpp
+│   │   │   │       │   ├── gltf_node.hpp
+│   │   │   │       │   ├── gltf_physics_body.hpp
+│   │   │   │       │   ├── gltf_physics_shape.hpp
+│   │   │   │       │   ├── gltf_skeleton.hpp
+│   │   │   │       │   ├── gltf_skin.hpp
+│   │   │   │       │   ├── gltf_spec_gloss.hpp
+│   │   │   │       │   ├── gltf_state.hpp
+│   │   │   │       │   ├── gltf_texture.hpp
+│   │   │   │       │   ├── gltf_texture_sampler.hpp
+│   │   │   │       │   ├── glyph.hpp
+│   │   │   │       │   ├── gpu_particles2d.hpp
+│   │   │   │       │   ├── gpu_particles3d.hpp
+│   │   │   │       │   ├── gpu_particles_attractor3d.hpp
+│   │   │   │       │   ├── gpu_particles_attractor_box3d.hpp
+│   │   │   │       │   ├── gpu_particles_attractor_sphere3d.hpp
+│   │   │   │       │   ├── gpu_particles_attractor_vector_field3d.hpp
+│   │   │   │       │   ├── gpu_particles_collision3d.hpp
+│   │   │   │       │   ├── gpu_particles_collision_box3d.hpp
+│   │   │   │       │   ├── gpu_particles_collision_height_field3d.hpp
+│   │   │   │       │   ├── gpu_particles_collision_sdf3d.hpp
+│   │   │   │       │   ├── gpu_particles_collision_sphere3d.hpp
+│   │   │   │       │   ├── gradient.hpp
+│   │   │   │       │   ├── gradient_texture1_d.hpp
+│   │   │   │       │   ├── gradient_texture2d.hpp
+│   │   │   │       │   ├── graph_edit.hpp
+│   │   │   │       │   ├── graph_element.hpp
+│   │   │   │       │   ├── graph_node.hpp
+│   │   │   │       │   ├── grid_container.hpp
+│   │   │   │       │   ├── grid_map.hpp
+│   │   │   │       │   ├── groove_joint2d.hpp
+│   │   │   │       │   ├── hashing_context.hpp
+│   │   │   │       │   ├── h_box_container.hpp
+│   │   │   │       │   ├── height_map_shape3d.hpp
+│   │   │   │       │   ├── h_flow_container.hpp
+│   │   │   │       │   ├── hinge_joint3d.hpp
+│   │   │   │       │   ├── hmac_context.hpp
+│   │   │   │       │   ├── h_scroll_bar.hpp
+│   │   │   │       │   ├── h_separator.hpp
+│   │   │   │       │   ├── h_slider.hpp
+│   │   │   │       │   ├── h_split_container.hpp
+│   │   │   │       │   ├── http_client.hpp
+│   │   │   │       │   ├── http_request.hpp
+│   │   │   │       │   ├── image_format_loader_extension.hpp
+│   │   │   │       │   ├── image_format_loader.hpp
+│   │   │   │       │   ├── image.hpp
+│   │   │   │       │   ├── image_texture3d.hpp
+│   │   │   │       │   ├── image_texture.hpp
+│   │   │   │       │   ├── image_texture_layered.hpp
+│   │   │   │       │   ├── immediate_mesh.hpp
+│   │   │   │       │   ├── importer_mesh.hpp
+│   │   │   │       │   ├── importer_mesh_instance3d.hpp
+│   │   │   │       │   ├── input_event_action.hpp
+│   │   │   │       │   ├── input_event_from_window.hpp
+│   │   │   │       │   ├── input_event_gesture.hpp
+│   │   │   │       │   ├── input_event.hpp
+│   │   │   │       │   ├── input_event_joypad_button.hpp
+│   │   │   │       │   ├── input_event_joypad_motion.hpp
+│   │   │   │       │   ├── input_event_key.hpp
+│   │   │   │       │   ├── input_event_magnify_gesture.hpp
+│   │   │   │       │   ├── input_event_midi.hpp
+│   │   │   │       │   ├── input_event_mouse_button.hpp
+│   │   │   │       │   ├── input_event_mouse.hpp
+│   │   │   │       │   ├── input_event_mouse_motion.hpp
+│   │   │   │       │   ├── input_event_pan_gesture.hpp
+│   │   │   │       │   ├── input_event_screen_drag.hpp
+│   │   │   │       │   ├── input_event_screen_touch.hpp
+│   │   │   │       │   ├── input_event_shortcut.hpp
+│   │   │   │       │   ├── input_event_with_modifiers.hpp
+│   │   │   │       │   ├── input.hpp
+│   │   │   │       │   ├── input_map.hpp
+│   │   │   │       │   ├── instance_placeholder.hpp
+│   │   │   │       │   ├── interval_tweener.hpp
+│   │   │   │       │   ├── ip.hpp
+│   │   │   │       │   ├── item_list.hpp
+│   │   │   │       │   ├── java_class.hpp
+│   │   │   │       │   ├── java_class_wrapper.hpp
+│   │   │   │       │   ├── java_script_bridge.hpp
+│   │   │   │       │   ├── java_script_object.hpp
+│   │   │   │       │   ├── jni_singleton.hpp
+│   │   │   │       │   ├── joint2d.hpp
+│   │   │   │       │   ├── joint3d.hpp
+│   │   │   │       │   ├── json.hpp
+│   │   │   │       │   ├── jsonrpc.hpp
+│   │   │   │       │   ├── kinematic_collision2d.hpp
+│   │   │   │       │   ├── kinematic_collision3d.hpp
+│   │   │   │       │   ├── label3d.hpp
+│   │   │   │       │   ├── label.hpp
+│   │   │   │       │   ├── label_settings.hpp
+│   │   │   │       │   ├── light2d.hpp
+│   │   │   │       │   ├── light3d.hpp
+│   │   │   │       │   ├── lightmap_gi_data.hpp
+│   │   │   │       │   ├── lightmap_gi.hpp
+│   │   │   │       │   ├── lightmapper.hpp
+│   │   │   │       │   ├── lightmapper_rd.hpp
+│   │   │   │       │   ├── lightmap_probe.hpp
+│   │   │   │       │   ├── light_occluder2d.hpp
+│   │   │   │       │   ├── line2d.hpp
+│   │   │   │       │   ├── line_edit.hpp
+│   │   │   │       │   ├── link_button.hpp
+│   │   │   │       │   ├── main_loop.hpp
+│   │   │   │       │   ├── margin_container.hpp
+│   │   │   │       │   ├── marker2d.hpp
+│   │   │   │       │   ├── marker3d.hpp
+│   │   │   │       │   ├── marshalls.hpp
+│   │   │   │       │   ├── material.hpp
+│   │   │   │       │   ├── menu_bar.hpp
+│   │   │   │       │   ├── menu_button.hpp
+│   │   │   │       │   ├── mesh_convex_decomposition_settings.hpp
+│   │   │   │       │   ├── mesh_data_tool.hpp
+│   │   │   │       │   ├── mesh.hpp
+│   │   │   │       │   ├── mesh_instance2d.hpp
+│   │   │   │       │   ├── mesh_instance3d.hpp
+│   │   │   │       │   ├── mesh_library.hpp
+│   │   │   │       │   ├── mesh_texture.hpp
+│   │   │   │       │   ├── method_tweener.hpp
+│   │   │   │       │   ├── missing_node.hpp
+│   │   │   │       │   ├── missing_resource.hpp
+│   │   │   │       │   ├── mobile_vr_interface.hpp
+│   │   │   │       │   ├── movie_writer.hpp
+│   │   │   │       │   ├── multi_mesh.hpp
+│   │   │   │       │   ├── multi_mesh_instance2d.hpp
+│   │   │   │       │   ├── multi_mesh_instance3d.hpp
+│   │   │   │       │   ├── multiplayer_api_extension.hpp
+│   │   │   │       │   ├── multiplayer_api.hpp
+│   │   │   │       │   ├── multiplayer_peer_extension.hpp
+│   │   │   │       │   ├── multiplayer_peer.hpp
+│   │   │   │       │   ├── multiplayer_spawner.hpp
+│   │   │   │       │   ├── multiplayer_synchronizer.hpp
+│   │   │   │       │   ├── mutex.hpp
+│   │   │   │       │   ├── navigation_agent2d.hpp
+│   │   │   │       │   ├── navigation_agent3d.hpp
+│   │   │   │       │   ├── navigation_link2d.hpp
+│   │   │   │       │   ├── navigation_link3d.hpp
+│   │   │   │       │   ├── navigation_mesh_generator.hpp
+│   │   │   │       │   ├── navigation_mesh.hpp
+│   │   │   │       │   ├── navigation_mesh_source_geometry_data2d.hpp
+│   │   │   │       │   ├── navigation_mesh_source_geometry_data3d.hpp
+│   │   │   │       │   ├── navigation_obstacle2d.hpp
+│   │   │   │       │   ├── navigation_obstacle3d.hpp
+│   │   │   │       │   ├── navigation_path_query_parameters2d.hpp
+│   │   │   │       │   ├── navigation_path_query_parameters3d.hpp
+│   │   │   │       │   ├── navigation_path_query_result2d.hpp
+│   │   │   │       │   ├── navigation_path_query_result3d.hpp
+│   │   │   │       │   ├── navigation_polygon.hpp
+│   │   │   │       │   ├── navigation_region2d.hpp
+│   │   │   │       │   ├── navigation_region3d.hpp
+│   │   │   │       │   ├── navigation_server2d.hpp
+│   │   │   │       │   ├── navigation_server3d.hpp
+│   │   │   │       │   ├── nine_patch_rect.hpp
+│   │   │   │       │   ├── node2d.hpp
+│   │   │   │       │   ├── node3d_gizmo.hpp
+│   │   │   │       │   ├── node3d.hpp
+│   │   │   │       │   ├── node.hpp
+│   │   │   │       │   ├── noise.hpp
+│   │   │   │       │   ├── noise_texture2d.hpp
+│   │   │   │       │   ├── noise_texture3d.hpp
+│   │   │   │       │   ├── object.hpp
+│   │   │   │       │   ├── occluder3d.hpp
+│   │   │   │       │   ├── occluder_instance3d.hpp
+│   │   │   │       │   ├── occluder_polygon2d.hpp
+│   │   │   │       │   ├── offline_multiplayer_peer.hpp
+│   │   │   │       │   ├── ogg_packet_sequence.hpp
+│   │   │   │       │   ├── ogg_packet_sequence_playback.hpp
+│   │   │   │       │   ├── omni_light3d.hpp
+│   │   │   │       │   ├── open_xr_action.hpp
+│   │   │   │       │   ├── open_xr_action_map.hpp
+│   │   │   │       │   ├── open_xr_action_set.hpp
+│   │   │   │       │   ├── open_xrapi_extension.hpp
+│   │   │   │       │   ├── open_xr_extension_wrapper_extension.hpp
+│   │   │   │       │   ├── open_xr_hand.hpp
+│   │   │   │       │   ├── open_xr_interaction_profile.hpp
+│   │   │   │       │   ├── open_xr_interaction_profile_metadata.hpp
+│   │   │   │       │   ├── open_xr_interface.hpp
+│   │   │   │       │   ├── open_xrip_binding.hpp
+│   │   │   │       │   ├── optimized_translation.hpp
+│   │   │   │       │   ├── option_button.hpp
+│   │   │   │       │   ├── orm_material3d.hpp
+│   │   │   │       │   ├── os.hpp
+│   │   │   │       │   ├── packed_data_container.hpp
+│   │   │   │       │   ├── packed_data_container_ref.hpp
+│   │   │   │       │   ├── packed_scene.hpp
+│   │   │   │       │   ├── packet_peer_dtls.hpp
+│   │   │   │       │   ├── packet_peer_extension.hpp
+│   │   │   │       │   ├── packet_peer.hpp
+│   │   │   │       │   ├── packet_peer_stream.hpp
+│   │   │   │       │   ├── packet_peer_udp.hpp
+│   │   │   │       │   ├── panel_container.hpp
+│   │   │   │       │   ├── panel.hpp
+│   │   │   │       │   ├── panorama_sky_material.hpp
+│   │   │   │       │   ├── parallax_background.hpp
+│   │   │   │       │   ├── parallax_layer.hpp
+│   │   │   │       │   ├── particle_process_material.hpp
+│   │   │   │       │   ├── path2d.hpp
+│   │   │   │       │   ├── path3d.hpp
+│   │   │   │       │   ├── path_follow2d.hpp
+│   │   │   │       │   ├── path_follow3d.hpp
+│   │   │   │       │   ├── pck_packer.hpp
+│   │   │   │       │   ├── performance.hpp
+│   │   │   │       │   ├── physical_bone2d.hpp
+│   │   │   │       │   ├── physical_bone3d.hpp
+│   │   │   │       │   ├── physical_sky_material.hpp
+│   │   │   │       │   ├── physics_body2d.hpp
+│   │   │   │       │   ├── physics_body3d.hpp
+│   │   │   │       │   ├── physics_direct_body_state2d_extension.hpp
+│   │   │   │       │   ├── physics_direct_body_state2d.hpp
+│   │   │   │       │   ├── physics_direct_body_state3d_extension.hpp
+│   │   │   │       │   ├── physics_direct_body_state3d.hpp
+│   │   │   │       │   ├── physics_direct_space_state2d_extension.hpp
+│   │   │   │       │   ├── physics_direct_space_state2d.hpp
+│   │   │   │       │   ├── physics_direct_space_state3d_extension.hpp
+│   │   │   │       │   ├── physics_direct_space_state3d.hpp
+│   │   │   │       │   ├── physics_material.hpp
+│   │   │   │       │   ├── physics_point_query_parameters2d.hpp
+│   │   │   │       │   ├── physics_point_query_parameters3d.hpp
+│   │   │   │       │   ├── physics_ray_query_parameters2d.hpp
+│   │   │   │       │   ├── physics_ray_query_parameters3d.hpp
+│   │   │   │       │   ├── physics_server2d_extension.hpp
+│   │   │   │       │   ├── physics_server2d_extension_motion_result.hpp
+│   │   │   │       │   ├── physics_server2d_extension_ray_result.hpp
+│   │   │   │       │   ├── physics_server2d_extension_shape_rest_info.hpp
+│   │   │   │       │   ├── physics_server2d_extension_shape_result.hpp
+│   │   │   │       │   ├── physics_server2d.hpp
+│   │   │   │       │   ├── physics_server2d_manager.hpp
+│   │   │   │       │   ├── physics_server3d_extension.hpp
+│   │   │   │       │   ├── physics_server3d_extension_motion_collision.hpp
+│   │   │   │       │   ├── physics_server3d_extension_motion_result.hpp
+│   │   │   │       │   ├── physics_server3d_extension_ray_result.hpp
+│   │   │   │       │   ├── physics_server3d_extension_shape_rest_info.hpp
+│   │   │   │       │   ├── physics_server3d_extension_shape_result.hpp
+│   │   │   │       │   ├── physics_server3d.hpp
+│   │   │   │       │   ├── physics_server3d_manager.hpp
+│   │   │   │       │   ├── physics_server3d_rendering_server_handler.hpp
+│   │   │   │       │   ├── physics_shape_query_parameters2d.hpp
+│   │   │   │       │   ├── physics_shape_query_parameters3d.hpp
+│   │   │   │       │   ├── physics_test_motion_parameters2d.hpp
+│   │   │   │       │   ├── physics_test_motion_parameters3d.hpp
+│   │   │   │       │   ├── physics_test_motion_result2d.hpp
+│   │   │   │       │   ├── physics_test_motion_result3d.hpp
+│   │   │   │       │   ├── pin_joint2d.hpp
+│   │   │   │       │   ├── pin_joint3d.hpp
+│   │   │   │       │   ├── placeholder_cubemap_array.hpp
+│   │   │   │       │   ├── placeholder_cubemap.hpp
+│   │   │   │       │   ├── placeholder_material.hpp
+│   │   │   │       │   ├── placeholder_mesh.hpp
+│   │   │   │       │   ├── placeholder_texture2d_array.hpp
+│   │   │   │       │   ├── placeholder_texture2d.hpp
+│   │   │   │       │   ├── placeholder_texture3d.hpp
+│   │   │   │       │   ├── placeholder_texture_layered.hpp
+│   │   │   │       │   ├── plane_mesh.hpp
+│   │   │   │       │   ├── point_light2d.hpp
+│   │   │   │       │   ├── point_mesh.hpp
+│   │   │   │       │   ├── polygon2d.hpp
+│   │   │   │       │   ├── polygon_occluder3d.hpp
+│   │   │   │       │   ├── polygon_path_finder.hpp
+│   │   │   │       │   ├── popup.hpp
+│   │   │   │       │   ├── popup_menu.hpp
+│   │   │   │       │   ├── popup_panel.hpp
+│   │   │   │       │   ├── portable_compressed_texture2d.hpp
+│   │   │   │       │   ├── primitive_mesh.hpp
+│   │   │   │       │   ├── prism_mesh.hpp
+│   │   │   │       │   ├── procedural_sky_material.hpp
+│   │   │   │       │   ├── progress_bar.hpp
+│   │   │   │       │   ├── project_settings.hpp
+│   │   │   │       │   ├── property_tweener.hpp
+│   │   │   │       │   ├── quad_mesh.hpp
+│   │   │   │       │   ├── quad_occluder3d.hpp
+│   │   │   │       │   ├── random_number_generator.hpp
+│   │   │   │       │   ├── range.hpp
+│   │   │   │       │   ├── ray_cast2d.hpp
+│   │   │   │       │   ├── ray_cast3d.hpp
+│   │   │   │       │   ├── rd_attachment_format.hpp
+│   │   │   │       │   ├── rd_framebuffer_pass.hpp
+│   │   │   │       │   ├── rd_pipeline_color_blend_state_attachment.hpp
+│   │   │   │       │   ├── rd_pipeline_color_blend_state.hpp
+│   │   │   │       │   ├── rd_pipeline_depth_stencil_state.hpp
+│   │   │   │       │   ├── rd_pipeline_multisample_state.hpp
+│   │   │   │       │   ├── rd_pipeline_rasterization_state.hpp
+│   │   │   │       │   ├── rd_pipeline_specialization_constant.hpp
+│   │   │   │       │   ├── rd_sampler_state.hpp
+│   │   │   │       │   ├── rd_shader_file.hpp
+│   │   │   │       │   ├── rd_shader_source.hpp
+│   │   │   │       │   ├── rd_shader_spirv.hpp
+│   │   │   │       │   ├── rd_texture_format.hpp
+│   │   │   │       │   ├── rd_texture_view.hpp
+│   │   │   │       │   ├── rd_uniform.hpp
+│   │   │   │       │   ├── rd_vertex_attribute.hpp
+│   │   │   │       │   ├── rectangle_shape2d.hpp
+│   │   │   │       │   ├── ref_counted.hpp
+│   │   │   │       │   ├── reference_rect.hpp
+│   │   │   │       │   ├── reflection_probe.hpp
+│   │   │   │       │   ├── reg_ex.hpp
+│   │   │   │       │   ├── reg_ex_match.hpp
+│   │   │   │       │   ├── remote_transform2d.hpp
+│   │   │   │       │   ├── remote_transform3d.hpp
+│   │   │   │       │   ├── rendering_device.hpp
+│   │   │   │       │   ├── rendering_server.hpp
+│   │   │   │       │   ├── render_scene_buffers_configuration.hpp
+│   │   │   │       │   ├── render_scene_buffers_extension.hpp
+│   │   │   │       │   ├── render_scene_buffers.hpp
+│   │   │   │       │   ├── render_scene_buffers_rd.hpp
+│   │   │   │       │   ├── resource_format_loader.hpp
+│   │   │   │       │   ├── resource_format_saver.hpp
+│   │   │   │       │   ├── resource.hpp
+│   │   │   │       │   ├── resource_importer_bit_map.hpp
+│   │   │   │       │   ├── resource_importer_bm_font.hpp
+│   │   │   │       │   ├── resource_importer_csv_translation.hpp
+│   │   │   │       │   ├── resource_importer_dynamic_font.hpp
+│   │   │   │       │   ├── resource_importer.hpp
+│   │   │   │       │   ├── resource_importer_image_font.hpp
+│   │   │   │       │   ├── resource_importer_image.hpp
+│   │   │   │       │   ├── resource_importer_layered_texture.hpp
+│   │   │   │       │   ├── resource_importer_mp3.hpp
+│   │   │   │       │   ├── resource_importer_obj.hpp
+│   │   │   │       │   ├── resource_importer_ogg_vorbis.hpp
+│   │   │   │       │   ├── resource_importer_scene.hpp
+│   │   │   │       │   ├── resource_importer_shader_file.hpp
+│   │   │   │       │   ├── resource_importer_texture_atlas.hpp
+│   │   │   │       │   ├── resource_importer_texture.hpp
+│   │   │   │       │   ├── resource_importer_wav.hpp
+│   │   │   │       │   ├── resource_loader.hpp
+│   │   │   │       │   ├── resource_preloader.hpp
+│   │   │   │       │   ├── resource_saver.hpp
+│   │   │   │       │   ├── resource_uid.hpp
+│   │   │   │       │   ├── ribbon_trail_mesh.hpp
+│   │   │   │       │   ├── rich_text_effect.hpp
+│   │   │   │       │   ├── rich_text_label.hpp
+│   │   │   │       │   ├── rigid_body2d.hpp
+│   │   │   │       │   ├── rigid_body3d.hpp
+│   │   │   │       │   ├── root_motion_view.hpp
+│   │   │   │       │   ├── scene_multiplayer.hpp
+│   │   │   │       │   ├── scene_replication_config.hpp
+│   │   │   │       │   ├── scene_state.hpp
+│   │   │   │       │   ├── scene_tree.hpp
+│   │   │   │       │   ├── scene_tree_timer.hpp
+│   │   │   │       │   ├── script_create_dialog.hpp
+│   │   │   │       │   ├── script_editor_base.hpp
+│   │   │   │       │   ├── script_editor.hpp
+│   │   │   │       │   ├── script_extension.hpp
+│   │   │   │       │   ├── script.hpp
+│   │   │   │       │   ├── script_language_extension.hpp
+│   │   │   │       │   ├── script_language_extension_profiling_info.hpp
+│   │   │   │       │   ├── script_language.hpp
+│   │   │   │       │   ├── scroll_bar.hpp
+│   │   │   │       │   ├── scroll_container.hpp
+│   │   │   │       │   ├── segment_shape2d.hpp
+│   │   │   │       │   ├── semaphore.hpp
+│   │   │   │       │   ├── separation_ray_shape2d.hpp
+│   │   │   │       │   ├── separation_ray_shape3d.hpp
+│   │   │   │       │   ├── separator.hpp
+│   │   │   │       │   ├── shader_globals_override.hpp
+│   │   │   │       │   ├── shader.hpp
+│   │   │   │       │   ├── shader_include.hpp
+│   │   │   │       │   ├── shader_material.hpp
+│   │   │   │       │   ├── shape2d.hpp
+│   │   │   │       │   ├── shape3d.hpp
+│   │   │   │       │   ├── shape_cast2d.hpp
+│   │   │   │       │   ├── shape_cast3d.hpp
+│   │   │   │       │   ├── shortcut.hpp
+│   │   │   │       │   ├── skeleton2d.hpp
+│   │   │   │       │   ├── skeleton3d.hpp
+│   │   │   │       │   ├── skeleton_ik3d.hpp
+│   │   │   │       │   ├── skeleton_modification2dccdik.hpp
+│   │   │   │       │   ├── skeleton_modification2dfabrik.hpp
+│   │   │   │       │   ├── skeleton_modification2d.hpp
+│   │   │   │       │   ├── skeleton_modification2d_jiggle.hpp
+│   │   │   │       │   ├── skeleton_modification2d_look_at.hpp
+│   │   │   │       │   ├── skeleton_modification2d_physical_bones.hpp
+│   │   │   │       │   ├── skeleton_modification2d_stack_holder.hpp
+│   │   │   │       │   ├── skeleton_modification2d_two_bone_ik.hpp
+│   │   │   │       │   ├── skeleton_modification_stack2d.hpp
+│   │   │   │       │   ├── skeleton_profile.hpp
+│   │   │   │       │   ├── skeleton_profile_humanoid.hpp
+│   │   │   │       │   ├── skin.hpp
+│   │   │   │       │   ├── skin_reference.hpp
+│   │   │   │       │   ├── sky.hpp
+│   │   │   │       │   ├── slider.hpp
+│   │   │   │       │   ├── slider_joint3d.hpp
+│   │   │   │       │   ├── soft_body3d.hpp
+│   │   │   │       │   ├── sphere_mesh.hpp
+│   │   │   │       │   ├── sphere_occluder3d.hpp
+│   │   │   │       │   ├── sphere_shape3d.hpp
+│   │   │   │       │   ├── spin_box.hpp
+│   │   │   │       │   ├── split_container.hpp
+│   │   │   │       │   ├── spot_light3d.hpp
+│   │   │   │       │   ├── spring_arm3d.hpp
+│   │   │   │       │   ├── sprite2d.hpp
+│   │   │   │       │   ├── sprite3d.hpp
+│   │   │   │       │   ├── sprite_base3d.hpp
+│   │   │   │       │   ├── sprite_frames.hpp
+│   │   │   │       │   ├── standard_material3d.hpp
+│   │   │   │       │   ├── static_body2d.hpp
+│   │   │   │       │   ├── static_body3d.hpp
+│   │   │   │       │   ├── stream_peer_buffer.hpp
+│   │   │   │       │   ├── stream_peer_extension.hpp
+│   │   │   │       │   ├── stream_peer_gzip.hpp
+│   │   │   │       │   ├── stream_peer.hpp
+│   │   │   │       │   ├── stream_peer_tcp.hpp
+│   │   │   │       │   ├── stream_peer_tls.hpp
+│   │   │   │       │   ├── style_box_empty.hpp
+│   │   │   │       │   ├── style_box_flat.hpp
+│   │   │   │       │   ├── style_box.hpp
+│   │   │   │       │   ├── style_box_line.hpp
+│   │   │   │       │   ├── style_box_texture.hpp
+│   │   │   │       │   ├── sub_viewport_container.hpp
+│   │   │   │       │   ├── sub_viewport.hpp
+│   │   │   │       │   ├── surface_tool.hpp
+│   │   │   │       │   ├── syntax_highlighter.hpp
+│   │   │   │       │   ├── system_font.hpp
+│   │   │   │       │   ├── tab_bar.hpp
+│   │   │   │       │   ├── tab_container.hpp
+│   │   │   │       │   ├── tcp_server.hpp
+│   │   │   │       │   ├── text_edit.hpp
+│   │   │   │       │   ├── text_line.hpp
+│   │   │   │       │   ├── text_mesh.hpp
+│   │   │   │       │   ├── text_paragraph.hpp
+│   │   │   │       │   ├── text_server_advanced.hpp
+│   │   │   │       │   ├── text_server_dummy.hpp
+│   │   │   │       │   ├── text_server_extension.hpp
+│   │   │   │       │   ├── text_server.hpp
+│   │   │   │       │   ├── text_server_manager.hpp
+│   │   │   │       │   ├── texture2d_array.hpp
+│   │   │   │       │   ├── texture2d_array_rd.hpp
+│   │   │   │       │   ├── texture2d.hpp
+│   │   │   │       │   ├── texture2drd.hpp
+│   │   │   │       │   ├── texture3d.hpp
+│   │   │   │       │   ├── texture3drd.hpp
+│   │   │   │       │   ├── texture_button.hpp
+│   │   │   │       │   ├── texture_cubemap_array_rd.hpp
+│   │   │   │       │   ├── texture_cubemap_rd.hpp
+│   │   │   │       │   ├── texture.hpp
+│   │   │   │       │   ├── texture_layered.hpp
+│   │   │   │       │   ├── texture_layered_rd.hpp
+│   │   │   │       │   ├── texture_progress_bar.hpp
+│   │   │   │       │   ├── texture_rect.hpp
+│   │   │   │       │   ├── theme_db.hpp
+│   │   │   │       │   ├── theme.hpp
+│   │   │   │       │   ├── thread.hpp
+│   │   │   │       │   ├── tile_data.hpp
+│   │   │   │       │   ├── tile_map.hpp
+│   │   │   │       │   ├── tile_map_pattern.hpp
+│   │   │   │       │   ├── tile_set_atlas_source.hpp
+│   │   │   │       │   ├── tile_set.hpp
+│   │   │   │       │   ├── tile_set_scenes_collection_source.hpp
+│   │   │   │       │   ├── tile_set_source.hpp
+│   │   │   │       │   ├── time.hpp
+│   │   │   │       │   ├── timer.hpp
+│   │   │   │       │   ├── tls_options.hpp
+│   │   │   │       │   ├── torus_mesh.hpp
+│   │   │   │       │   ├── touch_screen_button.hpp
+│   │   │   │       │   ├── translation.hpp
+│   │   │   │       │   ├── translation_server.hpp
+│   │   │   │       │   ├── tree.hpp
+│   │   │   │       │   ├── tree_item.hpp
+│   │   │   │       │   ├── triangle_mesh.hpp
+│   │   │   │       │   ├── tube_trail_mesh.hpp
+│   │   │   │       │   ├── tweener.hpp
+│   │   │   │       │   ├── tween.hpp
+│   │   │   │       │   ├── udp_server.hpp
+│   │   │   │       │   ├── undo_redo.hpp
+│   │   │   │       │   ├── upnp_device.hpp
+│   │   │   │       │   ├── upnp.hpp
+│   │   │   │       │   ├── v_box_container.hpp
+│   │   │   │       │   ├── vehicle_body3d.hpp
+│   │   │   │       │   ├── vehicle_wheel3d.hpp
+│   │   │   │       │   ├── v_flow_container.hpp
+│   │   │   │       │   ├── video_stream.hpp
+│   │   │   │       │   ├── video_stream_playback.hpp
+│   │   │   │       │   ├── video_stream_player.hpp
+│   │   │   │       │   ├── video_stream_theora.hpp
+│   │   │   │       │   ├── viewport.hpp
+│   │   │   │       │   ├── viewport_texture.hpp
+│   │   │   │       │   ├── visible_on_screen_enabler2d.hpp
+│   │   │   │       │   ├── visible_on_screen_enabler3d.hpp
+│   │   │   │       │   ├── visible_on_screen_notifier2d.hpp
+│   │   │   │       │   ├── visible_on_screen_notifier3d.hpp
+│   │   │   │       │   ├── visual_instance3d.hpp
+│   │   │   │       │   ├── visual_shader.hpp
+│   │   │   │       │   ├── visual_shader_node_billboard.hpp
+│   │   │   │       │   ├── visual_shader_node_boolean_constant.hpp
+│   │   │   │       │   ├── visual_shader_node_boolean_parameter.hpp
+│   │   │   │       │   ├── visual_shader_node_clamp.hpp
+│   │   │   │       │   ├── visual_shader_node_color_constant.hpp
+│   │   │   │       │   ├── visual_shader_node_color_func.hpp
+│   │   │   │       │   ├── visual_shader_node_color_op.hpp
+│   │   │   │       │   ├── visual_shader_node_color_parameter.hpp
+│   │   │   │       │   ├── visual_shader_node_comment.hpp
+│   │   │   │       │   ├── visual_shader_node_compare.hpp
+│   │   │   │       │   ├── visual_shader_node_constant.hpp
+│   │   │   │       │   ├── visual_shader_node_cubemap.hpp
+│   │   │   │       │   ├── visual_shader_node_cubemap_parameter.hpp
+│   │   │   │       │   ├── visual_shader_node_curve_texture.hpp
+│   │   │   │       │   ├── visual_shader_node_curve_xyz_texture.hpp
+│   │   │   │       │   ├── visual_shader_node_custom.hpp
+│   │   │   │       │   ├── visual_shader_node_derivative_func.hpp
+│   │   │   │       │   ├── visual_shader_node_determinant.hpp
+│   │   │   │       │   ├── visual_shader_node_distance_fade.hpp
+│   │   │   │       │   ├── visual_shader_node_dot_product.hpp
+│   │   │   │       │   ├── visual_shader_node_expression.hpp
+│   │   │   │       │   ├── visual_shader_node_face_forward.hpp
+│   │   │   │       │   ├── visual_shader_node_float_constant.hpp
+│   │   │   │       │   ├── visual_shader_node_float_func.hpp
+│   │   │   │       │   ├── visual_shader_node_float_op.hpp
+│   │   │   │       │   ├── visual_shader_node_float_parameter.hpp
+│   │   │   │       │   ├── visual_shader_node_fresnel.hpp
+│   │   │   │       │   ├── visual_shader_node_global_expression.hpp
+│   │   │   │       │   ├── visual_shader_node_group_base.hpp
+│   │   │   │       │   ├── visual_shader_node.hpp
+│   │   │   │       │   ├── visual_shader_node_if.hpp
+│   │   │   │       │   ├── visual_shader_node_input.hpp
+│   │   │   │       │   ├── visual_shader_node_int_constant.hpp
+│   │   │   │       │   ├── visual_shader_node_int_func.hpp
+│   │   │   │       │   ├── visual_shader_node_int_op.hpp
+│   │   │   │       │   ├── visual_shader_node_int_parameter.hpp
+│   │   │   │       │   ├── visual_shader_node_is.hpp
+│   │   │   │       │   ├── visual_shader_node_linear_scene_depth.hpp
+│   │   │   │       │   ├── visual_shader_node_mix.hpp
+│   │   │   │       │   ├── visual_shader_node_multiply_add.hpp
+│   │   │   │       │   ├── visual_shader_node_outer_product.hpp
+│   │   │   │       │   ├── visual_shader_node_output.hpp
+│   │   │   │       │   ├── visual_shader_node_parameter.hpp
+│   │   │   │       │   ├── visual_shader_node_parameter_ref.hpp
+│   │   │   │       │   ├── visual_shader_node_particle_accelerator.hpp
+│   │   │   │       │   ├── visual_shader_node_particle_box_emitter.hpp
+│   │   │   │       │   ├── visual_shader_node_particle_cone_velocity.hpp
+│   │   │   │       │   ├── visual_shader_node_particle_emit.hpp
+│   │   │   │       │   ├── visual_shader_node_particle_emitter.hpp
+│   │   │   │       │   ├── visual_shader_node_particle_mesh_emitter.hpp
+│   │   │   │       │   ├── visual_shader_node_particle_multiply_by_axis_angle.hpp
+│   │   │   │       │   ├── visual_shader_node_particle_output.hpp
+│   │   │   │       │   ├── visual_shader_node_particle_randomness.hpp
+│   │   │   │       │   ├── visual_shader_node_particle_ring_emitter.hpp
+│   │   │   │       │   ├── visual_shader_node_particle_sphere_emitter.hpp
+│   │   │   │       │   ├── visual_shader_node_proximity_fade.hpp
+│   │   │   │       │   ├── visual_shader_node_random_range.hpp
+│   │   │   │       │   ├── visual_shader_node_remap.hpp
+│   │   │   │       │   ├── visual_shader_node_resizable_base.hpp
+│   │   │   │       │   ├── visual_shader_node_rotation_by_axis.hpp
+│   │   │   │       │   ├── visual_shader_node_sample3d.hpp
+│   │   │   │       │   ├── visual_shader_node_screen_normal_world_space.hpp
+│   │   │   │       │   ├── visual_shader_node_screen_uv_to_sdf.hpp
+│   │   │   │       │   ├── visual_shader_node_sdf_raymarch.hpp
+│   │   │   │       │   ├── visual_shader_node_sdf_to_screen_uv.hpp
+│   │   │   │       │   ├── visual_shader_node_smooth_step.hpp
+│   │   │   │       │   ├── visual_shader_node_step.hpp
+│   │   │   │       │   ├── visual_shader_node_switch.hpp
+│   │   │   │       │   ├── visual_shader_node_texture2d_array.hpp
+│   │   │   │       │   ├── visual_shader_node_texture2d_array_parameter.hpp
+│   │   │   │       │   ├── visual_shader_node_texture2d_parameter.hpp
+│   │   │   │       │   ├── visual_shader_node_texture3d.hpp
+│   │   │   │       │   ├── visual_shader_node_texture3d_parameter.hpp
+│   │   │   │       │   ├── visual_shader_node_texture.hpp
+│   │   │   │       │   ├── visual_shader_node_texture_parameter.hpp
+│   │   │   │       │   ├── visual_shader_node_texture_parameter_triplanar.hpp
+│   │   │   │       │   ├── visual_shader_node_texture_sdf.hpp
+│   │   │   │       │   ├── visual_shader_node_texture_sdf_normal.hpp
+│   │   │   │       │   ├── visual_shader_node_transform_compose.hpp
+│   │   │   │       │   ├── visual_shader_node_transform_constant.hpp
+│   │   │   │       │   ├── visual_shader_node_transform_decompose.hpp
+│   │   │   │       │   ├── visual_shader_node_transform_func.hpp
+│   │   │   │       │   ├── visual_shader_node_transform_op.hpp
+│   │   │   │       │   ├── visual_shader_node_transform_parameter.hpp
+│   │   │   │       │   ├── visual_shader_node_transform_vec_mult.hpp
+│   │   │   │       │   ├── visual_shader_node_u_int_constant.hpp
+│   │   │   │       │   ├── visual_shader_node_u_int_func.hpp
+│   │   │   │       │   ├── visual_shader_node_u_int_op.hpp
+│   │   │   │       │   ├── visual_shader_node_u_int_parameter.hpp
+│   │   │   │       │   ├── visual_shader_node_uv_func.hpp
+│   │   │   │       │   ├── visual_shader_node_uv_polar_coord.hpp
+│   │   │   │       │   ├── visual_shader_node_varying_getter.hpp
+│   │   │   │       │   ├── visual_shader_node_varying.hpp
+│   │   │   │       │   ├── visual_shader_node_varying_setter.hpp
+│   │   │   │       │   ├── visual_shader_node_vec2_constant.hpp
+│   │   │   │       │   ├── visual_shader_node_vec2_parameter.hpp
+│   │   │   │       │   ├── visual_shader_node_vec3_constant.hpp
+│   │   │   │       │   ├── visual_shader_node_vec3_parameter.hpp
+│   │   │   │       │   ├── visual_shader_node_vec4_constant.hpp
+│   │   │   │       │   ├── visual_shader_node_vec4_parameter.hpp
+│   │   │   │       │   ├── visual_shader_node_vector_base.hpp
+│   │   │   │       │   ├── visual_shader_node_vector_compose.hpp
+│   │   │   │       │   ├── visual_shader_node_vector_decompose.hpp
+│   │   │   │       │   ├── visual_shader_node_vector_distance.hpp
+│   │   │   │       │   ├── visual_shader_node_vector_func.hpp
+│   │   │   │       │   ├── visual_shader_node_vector_len.hpp
+│   │   │   │       │   ├── visual_shader_node_vector_op.hpp
+│   │   │   │       │   ├── visual_shader_node_vector_refract.hpp
+│   │   │   │       │   ├── visual_shader_node_world_position_from_depth.hpp
+│   │   │   │       │   ├── voxel_gi_data.hpp
+│   │   │   │       │   ├── voxel_gi.hpp
+│   │   │   │       │   ├── v_scroll_bar.hpp
+│   │   │   │       │   ├── v_separator.hpp
+│   │   │   │       │   ├── v_slider.hpp
+│   │   │   │       │   ├── v_split_container.hpp
+│   │   │   │       │   ├── weak_ref.hpp
+│   │   │   │       │   ├── web_rtc_data_channel_extension.hpp
+│   │   │   │       │   ├── web_rtc_data_channel.hpp
+│   │   │   │       │   ├── web_rtc_multiplayer_peer.hpp
+│   │   │   │       │   ├── web_rtc_peer_connection_extension.hpp
+│   │   │   │       │   ├── web_rtc_peer_connection.hpp
+│   │   │   │       │   ├── web_socket_multiplayer_peer.hpp
+│   │   │   │       │   ├── web_socket_peer.hpp
+│   │   │   │       │   ├── web_xr_interface.hpp
+│   │   │   │       │   ├── window.hpp
+│   │   │   │       │   ├── worker_thread_pool.hpp
+│   │   │   │       │   ├── world2d.hpp
+│   │   │   │       │   ├── world3d.hpp
+│   │   │   │       │   ├── world_boundary_shape2d.hpp
+│   │   │   │       │   ├── world_boundary_shape3d.hpp
+│   │   │   │       │   ├── world_environment.hpp
+│   │   │   │       │   ├── x509_certificate.hpp
+│   │   │   │       │   ├── xml_parser.hpp
+│   │   │   │       │   ├── xr_anchor3d.hpp
+│   │   │   │       │   ├── xr_camera3d.hpp
+│   │   │   │       │   ├── xr_controller3d.hpp
+│   │   │   │       │   ├── xr_interface_extension.hpp
+│   │   │   │       │   ├── xr_interface.hpp
+│   │   │   │       │   ├── xr_node3d.hpp
+│   │   │   │       │   ├── xr_origin3d.hpp
+│   │   │   │       │   ├── xr_pose.hpp
+│   │   │   │       │   ├── xr_positional_tracker.hpp
+│   │   │   │       │   ├── xr_server.hpp
+│   │   │   │       │   ├── zip_packer.hpp
+│   │   │   │       │   └── zip_reader.hpp
+│   │   │   │       ├── core
+│   │   │   │       │   ├── ext_wrappers.gen.inc
+│   │   │   │       │   └── version.hpp
+│   │   │   │       └── variant
+│   │   │   │           ├── array.hpp
+│   │   │   │           ├── builtin_binds.hpp
+│   │   │   │           ├── builtin_types.hpp
+│   │   │   │           ├── builtin_vararg_methods.hpp
+│   │   │   │           ├── callable.hpp
+│   │   │   │           ├── dictionary.hpp
+│   │   │   │           ├── node_path.hpp
+│   │   │   │           ├── packed_byte_array.hpp
+│   │   │   │           ├── packed_color_array.hpp
+│   │   │   │           ├── packed_float32_array.hpp
+│   │   │   │           ├── packed_float64_array.hpp
+│   │   │   │           ├── packed_int32_array.hpp
+│   │   │   │           ├── packed_int64_array.hpp
+│   │   │   │           ├── packed_string_array.hpp
+│   │   │   │           ├── packed_vector2_array.hpp
+│   │   │   │           ├── packed_vector3_array.hpp
+│   │   │   │           ├── rid.hpp
+│   │   │   │           ├── signal.hpp
+│   │   │   │           ├── string.hpp
+│   │   │   │           ├── string_name.hpp
+│   │   │   │           ├── utility_functions.hpp
+│   │   │   │           └── variant_size.hpp
+│   │   │   └── src
+│   │   │       ├── classes
+│   │   │       │   ├── accept_dialog.cpp
+│   │   │       │   ├── accept_dialog.linux.template_debug.x86_64.o
+│   │   │       │   ├── aes_context.cpp
+│   │   │       │   ├── aes_context.linux.template_debug.x86_64.o
+│   │   │       │   ├── animatable_body2d.cpp
+│   │   │       │   ├── animatable_body2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── animatable_body3d.cpp
+│   │   │       │   ├── animatable_body3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── animated_sprite2d.cpp
+│   │   │       │   ├── animated_sprite2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── animated_sprite3d.cpp
+│   │   │       │   ├── animated_sprite3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── animated_texture.cpp
+│   │   │       │   ├── animated_texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation.cpp
+│   │   │       │   ├── animation_library.cpp
+│   │   │       │   ├── animation_library.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_mixer.cpp
+│   │   │       │   ├── animation_mixer.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_add2.cpp
+│   │   │       │   ├── animation_node_add2.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_add3.cpp
+│   │   │       │   ├── animation_node_add3.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_animation.cpp
+│   │   │       │   ├── animation_node_animation.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_blend2.cpp
+│   │   │       │   ├── animation_node_blend2.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_blend3.cpp
+│   │   │       │   ├── animation_node_blend3.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_blend_space1_d.cpp
+│   │   │       │   ├── animation_node_blend_space1_d.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_blend_space2d.cpp
+│   │   │       │   ├── animation_node_blend_space2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_blend_tree.cpp
+│   │   │       │   ├── animation_node_blend_tree.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node.cpp
+│   │   │       │   ├── animation_node.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_one_shot.cpp
+│   │   │       │   ├── animation_node_one_shot.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_output.cpp
+│   │   │       │   ├── animation_node_output.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_state_machine.cpp
+│   │   │       │   ├── animation_node_state_machine.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_state_machine_playback.cpp
+│   │   │       │   ├── animation_node_state_machine_playback.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_state_machine_transition.cpp
+│   │   │       │   ├── animation_node_state_machine_transition.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_sub2.cpp
+│   │   │       │   ├── animation_node_sub2.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_sync.cpp
+│   │   │       │   ├── animation_node_sync.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_time_scale.cpp
+│   │   │       │   ├── animation_node_time_scale.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_time_seek.cpp
+│   │   │       │   ├── animation_node_time_seek.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_node_transition.cpp
+│   │   │       │   ├── animation_node_transition.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_player.cpp
+│   │   │       │   ├── animation_player.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_root_node.cpp
+│   │   │       │   ├── animation_root_node.linux.template_debug.x86_64.o
+│   │   │       │   ├── animation_tree.cpp
+│   │   │       │   ├── animation_tree.linux.template_debug.x86_64.o
+│   │   │       │   ├── area2d.cpp
+│   │   │       │   ├── area2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── area3d.cpp
+│   │   │       │   ├── area3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── array_mesh.cpp
+│   │   │       │   ├── array_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── array_occluder3d.cpp
+│   │   │       │   ├── array_occluder3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── aspect_ratio_container.cpp
+│   │   │       │   ├── aspect_ratio_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── a_star2d.cpp
+│   │   │       │   ├── a_star2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── a_star3d.cpp
+│   │   │       │   ├── a_star3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── a_star_grid2d.cpp
+│   │   │       │   ├── a_star_grid2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── atlas_texture.cpp
+│   │   │       │   ├── atlas_texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_bus_layout.cpp
+│   │   │       │   ├── audio_bus_layout.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_amplify.cpp
+│   │   │       │   ├── audio_effect_amplify.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_band_limit_filter.cpp
+│   │   │       │   ├── audio_effect_band_limit_filter.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_band_pass_filter.cpp
+│   │   │       │   ├── audio_effect_band_pass_filter.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_capture.cpp
+│   │   │       │   ├── audio_effect_capture.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_chorus.cpp
+│   │   │       │   ├── audio_effect_chorus.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_compressor.cpp
+│   │   │       │   ├── audio_effect_compressor.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect.cpp
+│   │   │       │   ├── audio_effect_delay.cpp
+│   │   │       │   ├── audio_effect_delay.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_distortion.cpp
+│   │   │       │   ├── audio_effect_distortion.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_eq10.cpp
+│   │   │       │   ├── audio_effect_eq10.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_eq21.cpp
+│   │   │       │   ├── audio_effect_eq21.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_eq6.cpp
+│   │   │       │   ├── audio_effect_eq6.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_eq.cpp
+│   │   │       │   ├── audio_effect_eq.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_filter.cpp
+│   │   │       │   ├── audio_effect_filter.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_high_pass_filter.cpp
+│   │   │       │   ├── audio_effect_high_pass_filter.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_high_shelf_filter.cpp
+│   │   │       │   ├── audio_effect_high_shelf_filter.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_instance.cpp
+│   │   │       │   ├── audio_effect_instance.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_limiter.cpp
+│   │   │       │   ├── audio_effect_limiter.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_low_pass_filter.cpp
+│   │   │       │   ├── audio_effect_low_pass_filter.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_low_shelf_filter.cpp
+│   │   │       │   ├── audio_effect_low_shelf_filter.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_notch_filter.cpp
+│   │   │       │   ├── audio_effect_notch_filter.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_panner.cpp
+│   │   │       │   ├── audio_effect_panner.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_phaser.cpp
+│   │   │       │   ├── audio_effect_phaser.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_pitch_shift.cpp
+│   │   │       │   ├── audio_effect_pitch_shift.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_record.cpp
+│   │   │       │   ├── audio_effect_record.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_reverb.cpp
+│   │   │       │   ├── audio_effect_reverb.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_spectrum_analyzer.cpp
+│   │   │       │   ├── audio_effect_spectrum_analyzer_instance.cpp
+│   │   │       │   ├── audio_effect_spectrum_analyzer_instance.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_spectrum_analyzer.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_effect_stereo_enhance.cpp
+│   │   │       │   ├── audio_effect_stereo_enhance.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_listener2d.cpp
+│   │   │       │   ├── audio_listener2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_listener3d.cpp
+│   │   │       │   ├── audio_listener3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_server.cpp
+│   │   │       │   ├── audio_server.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_stream.cpp
+│   │   │       │   ├── audio_stream_generator.cpp
+│   │   │       │   ├── audio_stream_generator.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_stream_generator_playback.cpp
+│   │   │       │   ├── audio_stream_generator_playback.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_stream.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_stream_microphone.cpp
+│   │   │       │   ├── audio_stream_microphone.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_stream_mp3.cpp
+│   │   │       │   ├── audio_stream_mp3.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_stream_ogg_vorbis.cpp
+│   │   │       │   ├── audio_stream_ogg_vorbis.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_stream_playback.cpp
+│   │   │       │   ├── audio_stream_playback.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_stream_playback_ogg_vorbis.cpp
+│   │   │       │   ├── audio_stream_playback_ogg_vorbis.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_stream_playback_polyphonic.cpp
+│   │   │       │   ├── audio_stream_playback_polyphonic.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_stream_playback_resampled.cpp
+│   │   │       │   ├── audio_stream_playback_resampled.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_stream_player2d.cpp
+│   │   │       │   ├── audio_stream_player2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_stream_player3d.cpp
+│   │   │       │   ├── audio_stream_player3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_stream_player.cpp
+│   │   │       │   ├── audio_stream_player.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_stream_polyphonic.cpp
+│   │   │       │   ├── audio_stream_polyphonic.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_stream_randomizer.cpp
+│   │   │       │   ├── audio_stream_randomizer.linux.template_debug.x86_64.o
+│   │   │       │   ├── audio_stream_wav.cpp
+│   │   │       │   ├── audio_stream_wav.linux.template_debug.x86_64.o
+│   │   │       │   ├── back_buffer_copy.cpp
+│   │   │       │   ├── back_buffer_copy.linux.template_debug.x86_64.o
+│   │   │       │   ├── base_button.cpp
+│   │   │       │   ├── base_button.linux.template_debug.x86_64.o
+│   │   │       │   ├── base_material3d.cpp
+│   │   │       │   ├── base_material3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── bit_map.cpp
+│   │   │       │   ├── bit_map.linux.template_debug.x86_64.o
+│   │   │       │   ├── bone2d.cpp
+│   │   │       │   ├── bone2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── bone_attachment3d.cpp
+│   │   │       │   ├── bone_attachment3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── bone_map.cpp
+│   │   │       │   ├── bone_map.linux.template_debug.x86_64.o
+│   │   │       │   ├── box_container.cpp
+│   │   │       │   ├── box_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── box_mesh.cpp
+│   │   │       │   ├── box_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── box_occluder3d.cpp
+│   │   │       │   ├── box_occluder3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── box_shape3d.cpp
+│   │   │       │   ├── box_shape3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── button.cpp
+│   │   │       │   ├── button_group.cpp
+│   │   │       │   ├── button_group.linux.template_debug.x86_64.o
+│   │   │       │   ├── button.linux.template_debug.x86_64.o
+│   │   │       │   ├── callback_tweener.cpp
+│   │   │       │   ├── callback_tweener.linux.template_debug.x86_64.o
+│   │   │       │   ├── camera2d.cpp
+│   │   │       │   ├── camera2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── camera3d.cpp
+│   │   │       │   ├── camera3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── camera_attributes.cpp
+│   │   │       │   ├── camera_attributes.linux.template_debug.x86_64.o
+│   │   │       │   ├── camera_attributes_physical.cpp
+│   │   │       │   ├── camera_attributes_physical.linux.template_debug.x86_64.o
+│   │   │       │   ├── camera_attributes_practical.cpp
+│   │   │       │   ├── camera_attributes_practical.linux.template_debug.x86_64.o
+│   │   │       │   ├── camera_feed.cpp
+│   │   │       │   ├── camera_feed.linux.template_debug.x86_64.o
+│   │   │       │   ├── camera_server.cpp
+│   │   │       │   ├── camera_server.linux.template_debug.x86_64.o
+│   │   │       │   ├── camera_texture.cpp
+│   │   │       │   ├── camera_texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── canvas_group.cpp
+│   │   │       │   ├── canvas_group.linux.template_debug.x86_64.o
+│   │   │       │   ├── canvas_item.cpp
+│   │   │       │   ├── canvas_item.linux.template_debug.x86_64.o
+│   │   │       │   ├── canvas_item_material.cpp
+│   │   │       │   ├── canvas_item_material.linux.template_debug.x86_64.o
+│   │   │       │   ├── canvas_layer.cpp
+│   │   │       │   ├── canvas_layer.linux.template_debug.x86_64.o
+│   │   │       │   ├── canvas_modulate.cpp
+│   │   │       │   ├── canvas_modulate.linux.template_debug.x86_64.o
+│   │   │       │   ├── canvas_texture.cpp
+│   │   │       │   ├── canvas_texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── capsule_mesh.cpp
+│   │   │       │   ├── capsule_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── capsule_shape2d.cpp
+│   │   │       │   ├── capsule_shape2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── capsule_shape3d.cpp
+│   │   │       │   ├── capsule_shape3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── center_container.cpp
+│   │   │       │   ├── center_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── character_body2d.cpp
+│   │   │       │   ├── character_body2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── character_body3d.cpp
+│   │   │       │   ├── character_body3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── char_fx_transform.cpp
+│   │   │       │   ├── char_fx_transform.linux.template_debug.x86_64.o
+│   │   │       │   ├── check_box.cpp
+│   │   │       │   ├── check_box.linux.template_debug.x86_64.o
+│   │   │       │   ├── check_button.cpp
+│   │   │       │   ├── check_button.linux.template_debug.x86_64.o
+│   │   │       │   ├── circle_shape2d.cpp
+│   │   │       │   ├── circle_shape2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── class_db_singleton.cpp
+│   │   │       │   ├── class_db_singleton.linux.template_debug.x86_64.o
+│   │   │       │   ├── code_edit.cpp
+│   │   │       │   ├── code_edit.linux.template_debug.x86_64.o
+│   │   │       │   ├── code_highlighter.cpp
+│   │   │       │   ├── code_highlighter.linux.template_debug.x86_64.o
+│   │   │       │   ├── collision_object2d.cpp
+│   │   │       │   ├── collision_object2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── collision_object3d.cpp
+│   │   │       │   ├── collision_object3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── collision_polygon2d.cpp
+│   │   │       │   ├── collision_polygon2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── collision_polygon3d.cpp
+│   │   │       │   ├── collision_polygon3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── collision_shape2d.cpp
+│   │   │       │   ├── collision_shape2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── collision_shape3d.cpp
+│   │   │       │   ├── collision_shape3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── color_picker_button.cpp
+│   │   │       │   ├── color_picker_button.linux.template_debug.x86_64.o
+│   │   │       │   ├── color_picker.cpp
+│   │   │       │   ├── color_picker.linux.template_debug.x86_64.o
+│   │   │       │   ├── color_rect.cpp
+│   │   │       │   ├── color_rect.linux.template_debug.x86_64.o
+│   │   │       │   ├── compressed_cubemap_array.cpp
+│   │   │       │   ├── compressed_cubemap_array.linux.template_debug.x86_64.o
+│   │   │       │   ├── compressed_cubemap.cpp
+│   │   │       │   ├── compressed_cubemap.linux.template_debug.x86_64.o
+│   │   │       │   ├── compressed_texture2d_array.cpp
+│   │   │       │   ├── compressed_texture2d_array.linux.template_debug.x86_64.o
+│   │   │       │   ├── compressed_texture2d.cpp
+│   │   │       │   ├── compressed_texture2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── compressed_texture3d.cpp
+│   │   │       │   ├── compressed_texture3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── compressed_texture_layered.cpp
+│   │   │       │   ├── compressed_texture_layered.linux.template_debug.x86_64.o
+│   │   │       │   ├── concave_polygon_shape2d.cpp
+│   │   │       │   ├── concave_polygon_shape2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── concave_polygon_shape3d.cpp
+│   │   │       │   ├── concave_polygon_shape3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── cone_twist_joint3d.cpp
+│   │   │       │   ├── cone_twist_joint3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── config_file.cpp
+│   │   │       │   ├── config_file.linux.template_debug.x86_64.o
+│   │   │       │   ├── confirmation_dialog.cpp
+│   │   │       │   ├── confirmation_dialog.linux.template_debug.x86_64.o
+│   │   │       │   ├── container.cpp
+│   │   │       │   ├── container.linux.template_debug.x86_64.o
+│   │   │       │   ├── control.cpp
+│   │   │       │   ├── control.linux.template_debug.x86_64.o
+│   │   │       │   ├── convex_polygon_shape2d.cpp
+│   │   │       │   ├── convex_polygon_shape2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── convex_polygon_shape3d.cpp
+│   │   │       │   ├── convex_polygon_shape3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── cpu_particles2d.cpp
+│   │   │       │   ├── cpu_particles2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── cpu_particles3d.cpp
+│   │   │       │   ├── cpu_particles3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── crypto.cpp
+│   │   │       │   ├── crypto_key.cpp
+│   │   │       │   ├── crypto_key.linux.template_debug.x86_64.o
+│   │   │       │   ├── crypto.linux.template_debug.x86_64.o
+│   │   │       │   ├── csg_box3d.cpp
+│   │   │       │   ├── csg_box3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── csg_combiner3d.cpp
+│   │   │       │   ├── csg_combiner3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── csg_cylinder3d.cpp
+│   │   │       │   ├── csg_cylinder3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── csg_mesh3d.cpp
+│   │   │       │   ├── csg_mesh3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── csg_polygon3d.cpp
+│   │   │       │   ├── csg_polygon3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── csg_primitive3d.cpp
+│   │   │       │   ├── csg_primitive3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── csg_shape3d.cpp
+│   │   │       │   ├── csg_shape3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── csg_sphere3d.cpp
+│   │   │       │   ├── csg_sphere3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── csg_torus3d.cpp
+│   │   │       │   ├── csg_torus3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── cubemap_array.cpp
+│   │   │       │   ├── cubemap_array.linux.template_debug.x86_64.o
+│   │   │       │   ├── cubemap.cpp
+│   │   │       │   ├── cubemap.linux.template_debug.x86_64.o
+│   │   │       │   ├── curve2d.cpp
+│   │   │       │   ├── curve2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── curve3d.cpp
+│   │   │       │   ├── curve3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── curve.cpp
+│   │   │       │   ├── curve.linux.template_debug.x86_64.o
+│   │   │       │   ├── curve_texture.cpp
+│   │   │       │   ├── curve_texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── curve_xyz_texture.cpp
+│   │   │       │   ├── curve_xyz_texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── cylinder_mesh.cpp
+│   │   │       │   ├── cylinder_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── cylinder_shape3d.cpp
+│   │   │       │   ├── cylinder_shape3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── damped_spring_joint2d.cpp
+│   │   │       │   ├── damped_spring_joint2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── decal.cpp
+│   │   │       │   ├── decal.linux.template_debug.x86_64.o
+│   │   │       │   ├── dir_access.cpp
+│   │   │       │   ├── dir_access.linux.template_debug.x86_64.o
+│   │   │       │   ├── directional_light2d.cpp
+│   │   │       │   ├── directional_light2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── directional_light3d.cpp
+│   │   │       │   ├── directional_light3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── display_server.cpp
+│   │   │       │   ├── display_server.linux.template_debug.x86_64.o
+│   │   │       │   ├── dtls_server.cpp
+│   │   │       │   ├── dtls_server.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_command_palette.cpp
+│   │   │       │   ├── editor_command_palette.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_debugger_plugin.cpp
+│   │   │       │   ├── editor_debugger_plugin.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_debugger_session.cpp
+│   │   │       │   ├── editor_debugger_session.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_export_platform_android.cpp
+│   │   │       │   ├── editor_export_platform_android.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_export_platform.cpp
+│   │   │       │   ├── editor_export_platform_ios.cpp
+│   │   │       │   ├── editor_export_platform_ios.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_export_platform_linux_bsd.cpp
+│   │   │       │   ├── editor_export_platform_linux_bsd.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_export_platform.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_export_platform_mac_os.cpp
+│   │   │       │   ├── editor_export_platform_mac_os.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_export_platform_pc.cpp
+│   │   │       │   ├── editor_export_platform_pc.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_export_platform_web.cpp
+│   │   │       │   ├── editor_export_platform_web.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_export_platform_windows.cpp
+│   │   │       │   ├── editor_export_platform_windows.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_export_plugin.cpp
+│   │   │       │   ├── editor_export_plugin.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_feature_profile.cpp
+│   │   │       │   ├── editor_feature_profile.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_file_dialog.cpp
+│   │   │       │   ├── editor_file_dialog.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_file_system.cpp
+│   │   │       │   ├── editor_file_system_directory.cpp
+│   │   │       │   ├── editor_file_system_directory.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_file_system_import_format_support_query.cpp
+│   │   │       │   ├── editor_file_system_import_format_support_query.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_file_system.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_import_plugin.cpp
+│   │   │       │   ├── editor_import_plugin.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_inspector.cpp
+│   │   │       │   ├── editor_inspector.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_inspector_plugin.cpp
+│   │   │       │   ├── editor_inspector_plugin.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_interface.cpp
+│   │   │       │   ├── editor_interface.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_node3d_gizmo.cpp
+│   │   │       │   ├── editor_node3d_gizmo.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_node3d_gizmo_plugin.cpp
+│   │   │       │   ├── editor_node3d_gizmo_plugin.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_paths.cpp
+│   │   │       │   ├── editor_paths.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_plugin.cpp
+│   │   │       │   ├── editor_plugin.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_property.cpp
+│   │   │       │   ├── editor_property.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_resource_conversion_plugin.cpp
+│   │   │       │   ├── editor_resource_conversion_plugin.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_resource_picker.cpp
+│   │   │       │   ├── editor_resource_picker.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_resource_preview.cpp
+│   │   │       │   ├── editor_resource_preview_generator.cpp
+│   │   │       │   ├── editor_resource_preview_generator.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_resource_preview.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_resource_tooltip_plugin.cpp
+│   │   │       │   ├── editor_resource_tooltip_plugin.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_scene_format_importer_blend.cpp
+│   │   │       │   ├── editor_scene_format_importer_blend.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_scene_format_importer.cpp
+│   │   │       │   ├── editor_scene_format_importer_fbx.cpp
+│   │   │       │   ├── editor_scene_format_importer_fbx.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_scene_format_importer_gltf.cpp
+│   │   │       │   ├── editor_scene_format_importer_gltf.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_scene_format_importer.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_scene_post_import.cpp
+│   │   │       │   ├── editor_scene_post_import.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_scene_post_import_plugin.cpp
+│   │   │       │   ├── editor_scene_post_import_plugin.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_script.cpp
+│   │   │       │   ├── editor_script.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_script_picker.cpp
+│   │   │       │   ├── editor_script_picker.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_selection.cpp
+│   │   │       │   ├── editor_selection.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_settings.cpp
+│   │   │       │   ├── editor_settings.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_spin_slider.cpp
+│   │   │       │   ├── editor_spin_slider.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_syntax_highlighter.cpp
+│   │   │       │   ├── editor_syntax_highlighter.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_translation_parser_plugin.cpp
+│   │   │       │   ├── editor_translation_parser_plugin.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_undo_redo_manager.cpp
+│   │   │       │   ├── editor_undo_redo_manager.linux.template_debug.x86_64.o
+│   │   │       │   ├── editor_vcs_interface.cpp
+│   │   │       │   ├── editor_vcs_interface.linux.template_debug.x86_64.o
+│   │   │       │   ├── encoded_object_as_id.cpp
+│   │   │       │   ├── encoded_object_as_id.linux.template_debug.x86_64.o
+│   │   │       │   ├── e_net_connection.cpp
+│   │   │       │   ├── e_net_connection.linux.template_debug.x86_64.o
+│   │   │       │   ├── e_net_multiplayer_peer.cpp
+│   │   │       │   ├── e_net_multiplayer_peer.linux.template_debug.x86_64.o
+│   │   │       │   ├── e_net_packet_peer.cpp
+│   │   │       │   ├── e_net_packet_peer.linux.template_debug.x86_64.o
+│   │   │       │   ├── engine.cpp
+│   │   │       │   ├── engine_debugger.cpp
+│   │   │       │   ├── engine_debugger.linux.template_debug.x86_64.o
+│   │   │       │   ├── engine.linux.template_debug.x86_64.o
+│   │   │       │   ├── engine_profiler.cpp
+│   │   │       │   ├── engine_profiler.linux.template_debug.x86_64.o
+│   │   │       │   ├── environment.cpp
+│   │   │       │   ├── environment.linux.template_debug.x86_64.o
+│   │   │       │   ├── expression.cpp
+│   │   │       │   ├── expression.linux.template_debug.x86_64.o
+│   │   │       │   ├── fast_noise_lite.cpp
+│   │   │       │   ├── fast_noise_lite.linux.template_debug.x86_64.o
+│   │   │       │   ├── file_access.cpp
+│   │   │       │   ├── file_access.linux.template_debug.x86_64.o
+│   │   │       │   ├── file_dialog.cpp
+│   │   │       │   ├── file_dialog.linux.template_debug.x86_64.o
+│   │   │       │   ├── file_system_dock.cpp
+│   │   │       │   ├── file_system_dock.linux.template_debug.x86_64.o
+│   │   │       │   ├── flow_container.cpp
+│   │   │       │   ├── flow_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── fog_material.cpp
+│   │   │       │   ├── fog_material.linux.template_debug.x86_64.o
+│   │   │       │   ├── fog_volume.cpp
+│   │   │       │   ├── fog_volume.linux.template_debug.x86_64.o
+│   │   │       │   ├── font.cpp
+│   │   │       │   ├── font_file.cpp
+│   │   │       │   ├── font_file.linux.template_debug.x86_64.o
+│   │   │       │   ├── font.linux.template_debug.x86_64.o
+│   │   │       │   ├── font_variation.cpp
+│   │   │       │   ├── font_variation.linux.template_debug.x86_64.o
+│   │   │       │   ├── gd_extension.cpp
+│   │   │       │   ├── gd_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── gd_extension_manager.cpp
+│   │   │       │   ├── gd_extension_manager.linux.template_debug.x86_64.o
+│   │   │       │   ├── gd_script.cpp
+│   │   │       │   ├── gd_script.linux.template_debug.x86_64.o
+│   │   │       │   ├── generic6_dof_joint3d.cpp
+│   │   │       │   ├── generic6_dof_joint3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── geometry2d.cpp
+│   │   │       │   ├── geometry2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── geometry3d.cpp
+│   │   │       │   ├── geometry3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── geometry_instance3d.cpp
+│   │   │       │   ├── geometry_instance3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_accessor.cpp
+│   │   │       │   ├── gltf_accessor.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_animation.cpp
+│   │   │       │   ├── gltf_animation.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_buffer_view.cpp
+│   │   │       │   ├── gltf_buffer_view.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_camera.cpp
+│   │   │       │   ├── gltf_camera.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_document.cpp
+│   │   │       │   ├── gltf_document_extension_convert_importer_mesh.cpp
+│   │   │       │   ├── gltf_document_extension_convert_importer_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_document_extension.cpp
+│   │   │       │   ├── gltf_document_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_document.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_light.cpp
+│   │   │       │   ├── gltf_light.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_mesh.cpp
+│   │   │       │   ├── gltf_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_node.cpp
+│   │   │       │   ├── gltf_node.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_physics_body.cpp
+│   │   │       │   ├── gltf_physics_body.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_physics_shape.cpp
+│   │   │       │   ├── gltf_physics_shape.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_skeleton.cpp
+│   │   │       │   ├── gltf_skeleton.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_skin.cpp
+│   │   │       │   ├── gltf_skin.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_spec_gloss.cpp
+│   │   │       │   ├── gltf_spec_gloss.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_state.cpp
+│   │   │       │   ├── gltf_state.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_texture.cpp
+│   │   │       │   ├── gltf_texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── gltf_texture_sampler.cpp
+│   │   │       │   ├── gltf_texture_sampler.linux.template_debug.x86_64.o
+│   │   │       │   ├── gpu_particles2d.cpp
+│   │   │       │   ├── gpu_particles2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── gpu_particles3d.cpp
+│   │   │       │   ├── gpu_particles3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── gpu_particles_attractor3d.cpp
+│   │   │       │   ├── gpu_particles_attractor3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── gpu_particles_attractor_box3d.cpp
+│   │   │       │   ├── gpu_particles_attractor_box3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── gpu_particles_attractor_sphere3d.cpp
+│   │   │       │   ├── gpu_particles_attractor_sphere3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── gpu_particles_attractor_vector_field3d.cpp
+│   │   │       │   ├── gpu_particles_attractor_vector_field3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── gpu_particles_collision3d.cpp
+│   │   │       │   ├── gpu_particles_collision3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── gpu_particles_collision_box3d.cpp
+│   │   │       │   ├── gpu_particles_collision_box3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── gpu_particles_collision_height_field3d.cpp
+│   │   │       │   ├── gpu_particles_collision_height_field3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── gpu_particles_collision_sdf3d.cpp
+│   │   │       │   ├── gpu_particles_collision_sdf3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── gpu_particles_collision_sphere3d.cpp
+│   │   │       │   ├── gpu_particles_collision_sphere3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── gradient.cpp
+│   │   │       │   ├── gradient.linux.template_debug.x86_64.o
+│   │   │       │   ├── gradient_texture1_d.cpp
+│   │   │       │   ├── gradient_texture1_d.linux.template_debug.x86_64.o
+│   │   │       │   ├── gradient_texture2d.cpp
+│   │   │       │   ├── gradient_texture2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── graph_edit.cpp
+│   │   │       │   ├── graph_edit.linux.template_debug.x86_64.o
+│   │   │       │   ├── graph_element.cpp
+│   │   │       │   ├── graph_element.linux.template_debug.x86_64.o
+│   │   │       │   ├── graph_node.cpp
+│   │   │       │   ├── graph_node.linux.template_debug.x86_64.o
+│   │   │       │   ├── grid_container.cpp
+│   │   │       │   ├── grid_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── grid_map.cpp
+│   │   │       │   ├── grid_map.linux.template_debug.x86_64.o
+│   │   │       │   ├── groove_joint2d.cpp
+│   │   │       │   ├── groove_joint2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── hashing_context.cpp
+│   │   │       │   ├── hashing_context.linux.template_debug.x86_64.o
+│   │   │       │   ├── h_box_container.cpp
+│   │   │       │   ├── h_box_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── height_map_shape3d.cpp
+│   │   │       │   ├── height_map_shape3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── h_flow_container.cpp
+│   │   │       │   ├── h_flow_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── hinge_joint3d.cpp
+│   │   │       │   ├── hinge_joint3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── hmac_context.cpp
+│   │   │       │   ├── hmac_context.linux.template_debug.x86_64.o
+│   │   │       │   ├── h_scroll_bar.cpp
+│   │   │       │   ├── h_scroll_bar.linux.template_debug.x86_64.o
+│   │   │       │   ├── h_separator.cpp
+│   │   │       │   ├── h_separator.linux.template_debug.x86_64.o
+│   │   │       │   ├── h_slider.cpp
+│   │   │       │   ├── h_slider.linux.template_debug.x86_64.o
+│   │   │       │   ├── h_split_container.cpp
+│   │   │       │   ├── h_split_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── http_client.cpp
+│   │   │       │   ├── http_client.linux.template_debug.x86_64.o
+│   │   │       │   ├── http_request.cpp
+│   │   │       │   ├── http_request.linux.template_debug.x86_64.o
+│   │   │       │   ├── image.cpp
+│   │   │       │   ├── image_format_loader.cpp
+│   │   │       │   ├── image_format_loader_extension.cpp
+│   │   │       │   ├── image_format_loader_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── image_format_loader.linux.template_debug.x86_64.o
+│   │   │       │   ├── image.linux.template_debug.x86_64.o
+│   │   │       │   ├── image_texture3d.cpp
+│   │   │       │   ├── image_texture3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── image_texture.cpp
+│   │   │       │   ├── image_texture_layered.cpp
+│   │   │       │   ├── image_texture_layered.linux.template_debug.x86_64.o
+│   │   │       │   ├── image_texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── immediate_mesh.cpp
+│   │   │       │   ├── immediate_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── importer_mesh.cpp
+│   │   │       │   ├── importer_mesh_instance3d.cpp
+│   │   │       │   ├── importer_mesh_instance3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── importer_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── input.cpp
+│   │   │       │   ├── input_event_action.cpp
+│   │   │       │   ├── input_event_action.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_event.cpp
+│   │   │       │   ├── input_event_from_window.cpp
+│   │   │       │   ├── input_event_from_window.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_event_gesture.cpp
+│   │   │       │   ├── input_event_gesture.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_event_joypad_button.cpp
+│   │   │       │   ├── input_event_joypad_button.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_event_joypad_motion.cpp
+│   │   │       │   ├── input_event_joypad_motion.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_event_key.cpp
+│   │   │       │   ├── input_event_key.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_event.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_event_magnify_gesture.cpp
+│   │   │       │   ├── input_event_magnify_gesture.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_event_midi.cpp
+│   │   │       │   ├── input_event_midi.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_event_mouse_button.cpp
+│   │   │       │   ├── input_event_mouse_button.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_event_mouse.cpp
+│   │   │       │   ├── input_event_mouse.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_event_mouse_motion.cpp
+│   │   │       │   ├── input_event_mouse_motion.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_event_pan_gesture.cpp
+│   │   │       │   ├── input_event_pan_gesture.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_event_screen_drag.cpp
+│   │   │       │   ├── input_event_screen_drag.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_event_screen_touch.cpp
+│   │   │       │   ├── input_event_screen_touch.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_event_shortcut.cpp
+│   │   │       │   ├── input_event_shortcut.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_event_with_modifiers.cpp
+│   │   │       │   ├── input_event_with_modifiers.linux.template_debug.x86_64.o
+│   │   │       │   ├── input.linux.template_debug.x86_64.o
+│   │   │       │   ├── input_map.cpp
+│   │   │       │   ├── input_map.linux.template_debug.x86_64.o
+│   │   │       │   ├── instance_placeholder.cpp
+│   │   │       │   ├── instance_placeholder.linux.template_debug.x86_64.o
+│   │   │       │   ├── interval_tweener.cpp
+│   │   │       │   ├── interval_tweener.linux.template_debug.x86_64.o
+│   │   │       │   ├── ip.cpp
+│   │   │       │   ├── ip.linux.template_debug.x86_64.o
+│   │   │       │   ├── item_list.cpp
+│   │   │       │   ├── item_list.linux.template_debug.x86_64.o
+│   │   │       │   ├── java_class.cpp
+│   │   │       │   ├── java_class.linux.template_debug.x86_64.o
+│   │   │       │   ├── java_class_wrapper.cpp
+│   │   │       │   ├── java_class_wrapper.linux.template_debug.x86_64.o
+│   │   │       │   ├── java_script_bridge.cpp
+│   │   │       │   ├── java_script_bridge.linux.template_debug.x86_64.o
+│   │   │       │   ├── java_script_object.cpp
+│   │   │       │   ├── java_script_object.linux.template_debug.x86_64.o
+│   │   │       │   ├── jni_singleton.cpp
+│   │   │       │   ├── jni_singleton.linux.template_debug.x86_64.o
+│   │   │       │   ├── joint2d.cpp
+│   │   │       │   ├── joint2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── joint3d.cpp
+│   │   │       │   ├── joint3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── json.cpp
+│   │   │       │   ├── json.linux.template_debug.x86_64.o
+│   │   │       │   ├── jsonrpc.cpp
+│   │   │       │   ├── jsonrpc.linux.template_debug.x86_64.o
+│   │   │       │   ├── kinematic_collision2d.cpp
+│   │   │       │   ├── kinematic_collision2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── kinematic_collision3d.cpp
+│   │   │       │   ├── kinematic_collision3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── label3d.cpp
+│   │   │       │   ├── label3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── label.cpp
+│   │   │       │   ├── label.linux.template_debug.x86_64.o
+│   │   │       │   ├── label_settings.cpp
+│   │   │       │   ├── label_settings.linux.template_debug.x86_64.o
+│   │   │       │   ├── light2d.cpp
+│   │   │       │   ├── light2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── light3d.cpp
+│   │   │       │   ├── light3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── lightmap_gi.cpp
+│   │   │       │   ├── lightmap_gi_data.cpp
+│   │   │       │   ├── lightmap_gi_data.linux.template_debug.x86_64.o
+│   │   │       │   ├── lightmap_gi.linux.template_debug.x86_64.o
+│   │   │       │   ├── lightmapper.cpp
+│   │   │       │   ├── lightmapper.linux.template_debug.x86_64.o
+│   │   │       │   ├── lightmapper_rd.cpp
+│   │   │       │   ├── lightmapper_rd.linux.template_debug.x86_64.o
+│   │   │       │   ├── lightmap_probe.cpp
+│   │   │       │   ├── lightmap_probe.linux.template_debug.x86_64.o
+│   │   │       │   ├── light_occluder2d.cpp
+│   │   │       │   ├── light_occluder2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── line2d.cpp
+│   │   │       │   ├── line2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── line_edit.cpp
+│   │   │       │   ├── line_edit.linux.template_debug.x86_64.o
+│   │   │       │   ├── link_button.cpp
+│   │   │       │   ├── link_button.linux.template_debug.x86_64.o
+│   │   │       │   ├── main_loop.cpp
+│   │   │       │   ├── main_loop.linux.template_debug.x86_64.o
+│   │   │       │   ├── margin_container.cpp
+│   │   │       │   ├── margin_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── marker2d.cpp
+│   │   │       │   ├── marker2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── marker3d.cpp
+│   │   │       │   ├── marker3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── marshalls.cpp
+│   │   │       │   ├── marshalls.linux.template_debug.x86_64.o
+│   │   │       │   ├── material.cpp
+│   │   │       │   ├── material.linux.template_debug.x86_64.o
+│   │   │       │   ├── menu_bar.cpp
+│   │   │       │   ├── menu_bar.linux.template_debug.x86_64.o
+│   │   │       │   ├── menu_button.cpp
+│   │   │       │   ├── menu_button.linux.template_debug.x86_64.o
+│   │   │       │   ├── mesh_convex_decomposition_settings.cpp
+│   │   │       │   ├── mesh_convex_decomposition_settings.linux.template_debug.x86_64.o
+│   │   │       │   ├── mesh.cpp
+│   │   │       │   ├── mesh_data_tool.cpp
+│   │   │       │   ├── mesh_data_tool.linux.template_debug.x86_64.o
+│   │   │       │   ├── mesh_instance2d.cpp
+│   │   │       │   ├── mesh_instance2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── mesh_instance3d.cpp
+│   │   │       │   ├── mesh_instance3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── mesh_library.cpp
+│   │   │       │   ├── mesh_library.linux.template_debug.x86_64.o
+│   │   │       │   ├── mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── mesh_texture.cpp
+│   │   │       │   ├── mesh_texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── method_tweener.cpp
+│   │   │       │   ├── method_tweener.linux.template_debug.x86_64.o
+│   │   │       │   ├── missing_node.cpp
+│   │   │       │   ├── missing_node.linux.template_debug.x86_64.o
+│   │   │       │   ├── missing_resource.cpp
+│   │   │       │   ├── missing_resource.linux.template_debug.x86_64.o
+│   │   │       │   ├── mobile_vr_interface.cpp
+│   │   │       │   ├── mobile_vr_interface.linux.template_debug.x86_64.o
+│   │   │       │   ├── movie_writer.cpp
+│   │   │       │   ├── movie_writer.linux.template_debug.x86_64.o
+│   │   │       │   ├── multi_mesh.cpp
+│   │   │       │   ├── multi_mesh_instance2d.cpp
+│   │   │       │   ├── multi_mesh_instance2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── multi_mesh_instance3d.cpp
+│   │   │       │   ├── multi_mesh_instance3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── multi_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── multiplayer_api.cpp
+│   │   │       │   ├── multiplayer_api_extension.cpp
+│   │   │       │   ├── multiplayer_api_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── multiplayer_api.linux.template_debug.x86_64.o
+│   │   │       │   ├── multiplayer_peer.cpp
+│   │   │       │   ├── multiplayer_peer_extension.cpp
+│   │   │       │   ├── multiplayer_peer_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── multiplayer_peer.linux.template_debug.x86_64.o
+│   │   │       │   ├── multiplayer_spawner.cpp
+│   │   │       │   ├── multiplayer_spawner.linux.template_debug.x86_64.o
+│   │   │       │   ├── multiplayer_synchronizer.cpp
+│   │   │       │   ├── multiplayer_synchronizer.linux.template_debug.x86_64.o
+│   │   │       │   ├── mutex.cpp
+│   │   │       │   ├── mutex.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_agent2d.cpp
+│   │   │       │   ├── navigation_agent2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_agent3d.cpp
+│   │   │       │   ├── navigation_agent3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_link2d.cpp
+│   │   │       │   ├── navigation_link2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_link3d.cpp
+│   │   │       │   ├── navigation_link3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_mesh.cpp
+│   │   │       │   ├── navigation_mesh_generator.cpp
+│   │   │       │   ├── navigation_mesh_generator.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_mesh_source_geometry_data2d.cpp
+│   │   │       │   ├── navigation_mesh_source_geometry_data2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_mesh_source_geometry_data3d.cpp
+│   │   │       │   ├── navigation_mesh_source_geometry_data3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_obstacle2d.cpp
+│   │   │       │   ├── navigation_obstacle2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_obstacle3d.cpp
+│   │   │       │   ├── navigation_obstacle3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_path_query_parameters2d.cpp
+│   │   │       │   ├── navigation_path_query_parameters2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_path_query_parameters3d.cpp
+│   │   │       │   ├── navigation_path_query_parameters3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_path_query_result2d.cpp
+│   │   │       │   ├── navigation_path_query_result2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_path_query_result3d.cpp
+│   │   │       │   ├── navigation_path_query_result3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_polygon.cpp
+│   │   │       │   ├── navigation_polygon.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_region2d.cpp
+│   │   │       │   ├── navigation_region2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_region3d.cpp
+│   │   │       │   ├── navigation_region3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_server2d.cpp
+│   │   │       │   ├── navigation_server2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── navigation_server3d.cpp
+│   │   │       │   ├── navigation_server3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── nine_patch_rect.cpp
+│   │   │       │   ├── nine_patch_rect.linux.template_debug.x86_64.o
+│   │   │       │   ├── node2d.cpp
+│   │   │       │   ├── node2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── node3d.cpp
+│   │   │       │   ├── node3d_gizmo.cpp
+│   │   │       │   ├── node3d_gizmo.linux.template_debug.x86_64.o
+│   │   │       │   ├── node3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── node.cpp
+│   │   │       │   ├── node.linux.template_debug.x86_64.o
+│   │   │       │   ├── noise.cpp
+│   │   │       │   ├── noise.linux.template_debug.x86_64.o
+│   │   │       │   ├── noise_texture2d.cpp
+│   │   │       │   ├── noise_texture2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── noise_texture3d.cpp
+│   │   │       │   ├── noise_texture3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── object.cpp
+│   │   │       │   ├── object.linux.template_debug.x86_64.o
+│   │   │       │   ├── occluder3d.cpp
+│   │   │       │   ├── occluder3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── occluder_instance3d.cpp
+│   │   │       │   ├── occluder_instance3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── occluder_polygon2d.cpp
+│   │   │       │   ├── occluder_polygon2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── offline_multiplayer_peer.cpp
+│   │   │       │   ├── offline_multiplayer_peer.linux.template_debug.x86_64.o
+│   │   │       │   ├── ogg_packet_sequence.cpp
+│   │   │       │   ├── ogg_packet_sequence.linux.template_debug.x86_64.o
+│   │   │       │   ├── ogg_packet_sequence_playback.cpp
+│   │   │       │   ├── ogg_packet_sequence_playback.linux.template_debug.x86_64.o
+│   │   │       │   ├── omni_light3d.cpp
+│   │   │       │   ├── omni_light3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── open_xr_action.cpp
+│   │   │       │   ├── open_xr_action.linux.template_debug.x86_64.o
+│   │   │       │   ├── open_xr_action_map.cpp
+│   │   │       │   ├── open_xr_action_map.linux.template_debug.x86_64.o
+│   │   │       │   ├── open_xr_action_set.cpp
+│   │   │       │   ├── open_xr_action_set.linux.template_debug.x86_64.o
+│   │   │       │   ├── open_xrapi_extension.cpp
+│   │   │       │   ├── open_xrapi_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── open_xr_extension_wrapper_extension.cpp
+│   │   │       │   ├── open_xr_extension_wrapper_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── open_xr_hand.cpp
+│   │   │       │   ├── open_xr_hand.linux.template_debug.x86_64.o
+│   │   │       │   ├── open_xr_interaction_profile.cpp
+│   │   │       │   ├── open_xr_interaction_profile.linux.template_debug.x86_64.o
+│   │   │       │   ├── open_xr_interaction_profile_metadata.cpp
+│   │   │       │   ├── open_xr_interaction_profile_metadata.linux.template_debug.x86_64.o
+│   │   │       │   ├── open_xr_interface.cpp
+│   │   │       │   ├── open_xr_interface.linux.template_debug.x86_64.o
+│   │   │       │   ├── open_xrip_binding.cpp
+│   │   │       │   ├── open_xrip_binding.linux.template_debug.x86_64.o
+│   │   │       │   ├── optimized_translation.cpp
+│   │   │       │   ├── optimized_translation.linux.template_debug.x86_64.o
+│   │   │       │   ├── option_button.cpp
+│   │   │       │   ├── option_button.linux.template_debug.x86_64.o
+│   │   │       │   ├── orm_material3d.cpp
+│   │   │       │   ├── orm_material3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── os.cpp
+│   │   │       │   ├── os.linux.template_debug.x86_64.o
+│   │   │       │   ├── packed_data_container.cpp
+│   │   │       │   ├── packed_data_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── packed_data_container_ref.cpp
+│   │   │       │   ├── packed_data_container_ref.linux.template_debug.x86_64.o
+│   │   │       │   ├── packed_scene.cpp
+│   │   │       │   ├── packed_scene.linux.template_debug.x86_64.o
+│   │   │       │   ├── packet_peer.cpp
+│   │   │       │   ├── packet_peer_dtls.cpp
+│   │   │       │   ├── packet_peer_dtls.linux.template_debug.x86_64.o
+│   │   │       │   ├── packet_peer_extension.cpp
+│   │   │       │   ├── packet_peer_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── packet_peer.linux.template_debug.x86_64.o
+│   │   │       │   ├── packet_peer_stream.cpp
+│   │   │       │   ├── packet_peer_stream.linux.template_debug.x86_64.o
+│   │   │       │   ├── packet_peer_udp.cpp
+│   │   │       │   ├── packet_peer_udp.linux.template_debug.x86_64.o
+│   │   │       │   ├── panel_container.cpp
+│   │   │       │   ├── panel_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── panel.cpp
+│   │   │       │   ├── panel.linux.template_debug.x86_64.o
+│   │   │       │   ├── panorama_sky_material.cpp
+│   │   │       │   ├── panorama_sky_material.linux.template_debug.x86_64.o
+│   │   │       │   ├── parallax_background.cpp
+│   │   │       │   ├── parallax_background.linux.template_debug.x86_64.o
+│   │   │       │   ├── parallax_layer.cpp
+│   │   │       │   ├── parallax_layer.linux.template_debug.x86_64.o
+│   │   │       │   ├── particle_process_material.cpp
+│   │   │       │   ├── particle_process_material.linux.template_debug.x86_64.o
+│   │   │       │   ├── path2d.cpp
+│   │   │       │   ├── path2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── path3d.cpp
+│   │   │       │   ├── path3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── path_follow2d.cpp
+│   │   │       │   ├── path_follow2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── path_follow3d.cpp
+│   │   │       │   ├── path_follow3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── pck_packer.cpp
+│   │   │       │   ├── pck_packer.linux.template_debug.x86_64.o
+│   │   │       │   ├── performance.cpp
+│   │   │       │   ├── performance.linux.template_debug.x86_64.o
+│   │   │       │   ├── physical_bone2d.cpp
+│   │   │       │   ├── physical_bone2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physical_bone3d.cpp
+│   │   │       │   ├── physical_bone3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physical_sky_material.cpp
+│   │   │       │   ├── physical_sky_material.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_body2d.cpp
+│   │   │       │   ├── physics_body2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_body3d.cpp
+│   │   │       │   ├── physics_body3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_direct_body_state2d.cpp
+│   │   │       │   ├── physics_direct_body_state2d_extension.cpp
+│   │   │       │   ├── physics_direct_body_state2d_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_direct_body_state2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_direct_body_state3d.cpp
+│   │   │       │   ├── physics_direct_body_state3d_extension.cpp
+│   │   │       │   ├── physics_direct_body_state3d_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_direct_body_state3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_direct_space_state2d.cpp
+│   │   │       │   ├── physics_direct_space_state2d_extension.cpp
+│   │   │       │   ├── physics_direct_space_state2d_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_direct_space_state2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_direct_space_state3d.cpp
+│   │   │       │   ├── physics_direct_space_state3d_extension.cpp
+│   │   │       │   ├── physics_direct_space_state3d_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_direct_space_state3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_material.cpp
+│   │   │       │   ├── physics_material.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_point_query_parameters2d.cpp
+│   │   │       │   ├── physics_point_query_parameters2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_point_query_parameters3d.cpp
+│   │   │       │   ├── physics_point_query_parameters3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_ray_query_parameters2d.cpp
+│   │   │       │   ├── physics_ray_query_parameters2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_ray_query_parameters3d.cpp
+│   │   │       │   ├── physics_ray_query_parameters3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_server2d.cpp
+│   │   │       │   ├── physics_server2d_extension.cpp
+│   │   │       │   ├── physics_server2d_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_server2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_server2d_manager.cpp
+│   │   │       │   ├── physics_server2d_manager.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_server3d.cpp
+│   │   │       │   ├── physics_server3d_extension.cpp
+│   │   │       │   ├── physics_server3d_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_server3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_server3d_manager.cpp
+│   │   │       │   ├── physics_server3d_manager.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_server3d_rendering_server_handler.cpp
+│   │   │       │   ├── physics_server3d_rendering_server_handler.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_shape_query_parameters2d.cpp
+│   │   │       │   ├── physics_shape_query_parameters2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_shape_query_parameters3d.cpp
+│   │   │       │   ├── physics_shape_query_parameters3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_test_motion_parameters2d.cpp
+│   │   │       │   ├── physics_test_motion_parameters2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_test_motion_parameters3d.cpp
+│   │   │       │   ├── physics_test_motion_parameters3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_test_motion_result2d.cpp
+│   │   │       │   ├── physics_test_motion_result2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── physics_test_motion_result3d.cpp
+│   │   │       │   ├── physics_test_motion_result3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── pin_joint2d.cpp
+│   │   │       │   ├── pin_joint2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── pin_joint3d.cpp
+│   │   │       │   ├── pin_joint3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── placeholder_cubemap_array.cpp
+│   │   │       │   ├── placeholder_cubemap_array.linux.template_debug.x86_64.o
+│   │   │       │   ├── placeholder_cubemap.cpp
+│   │   │       │   ├── placeholder_cubemap.linux.template_debug.x86_64.o
+│   │   │       │   ├── placeholder_material.cpp
+│   │   │       │   ├── placeholder_material.linux.template_debug.x86_64.o
+│   │   │       │   ├── placeholder_mesh.cpp
+│   │   │       │   ├── placeholder_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── placeholder_texture2d_array.cpp
+│   │   │       │   ├── placeholder_texture2d_array.linux.template_debug.x86_64.o
+│   │   │       │   ├── placeholder_texture2d.cpp
+│   │   │       │   ├── placeholder_texture2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── placeholder_texture3d.cpp
+│   │   │       │   ├── placeholder_texture3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── placeholder_texture_layered.cpp
+│   │   │       │   ├── placeholder_texture_layered.linux.template_debug.x86_64.o
+│   │   │       │   ├── plane_mesh.cpp
+│   │   │       │   ├── plane_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── point_light2d.cpp
+│   │   │       │   ├── point_light2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── point_mesh.cpp
+│   │   │       │   ├── point_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── polygon2d.cpp
+│   │   │       │   ├── polygon2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── polygon_occluder3d.cpp
+│   │   │       │   ├── polygon_occluder3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── polygon_path_finder.cpp
+│   │   │       │   ├── polygon_path_finder.linux.template_debug.x86_64.o
+│   │   │       │   ├── popup.cpp
+│   │   │       │   ├── popup.linux.template_debug.x86_64.o
+│   │   │       │   ├── popup_menu.cpp
+│   │   │       │   ├── popup_menu.linux.template_debug.x86_64.o
+│   │   │       │   ├── popup_panel.cpp
+│   │   │       │   ├── popup_panel.linux.template_debug.x86_64.o
+│   │   │       │   ├── portable_compressed_texture2d.cpp
+│   │   │       │   ├── portable_compressed_texture2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── primitive_mesh.cpp
+│   │   │       │   ├── primitive_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── prism_mesh.cpp
+│   │   │       │   ├── prism_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── procedural_sky_material.cpp
+│   │   │       │   ├── procedural_sky_material.linux.template_debug.x86_64.o
+│   │   │       │   ├── progress_bar.cpp
+│   │   │       │   ├── progress_bar.linux.template_debug.x86_64.o
+│   │   │       │   ├── project_settings.cpp
+│   │   │       │   ├── project_settings.linux.template_debug.x86_64.o
+│   │   │       │   ├── property_tweener.cpp
+│   │   │       │   ├── property_tweener.linux.template_debug.x86_64.o
+│   │   │       │   ├── quad_mesh.cpp
+│   │   │       │   ├── quad_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── quad_occluder3d.cpp
+│   │   │       │   ├── quad_occluder3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── random_number_generator.cpp
+│   │   │       │   ├── random_number_generator.linux.template_debug.x86_64.o
+│   │   │       │   ├── range.cpp
+│   │   │       │   ├── range.linux.template_debug.x86_64.o
+│   │   │       │   ├── ray_cast2d.cpp
+│   │   │       │   ├── ray_cast2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── ray_cast3d.cpp
+│   │   │       │   ├── ray_cast3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── rd_attachment_format.cpp
+│   │   │       │   ├── rd_attachment_format.linux.template_debug.x86_64.o
+│   │   │       │   ├── rd_framebuffer_pass.cpp
+│   │   │       │   ├── rd_framebuffer_pass.linux.template_debug.x86_64.o
+│   │   │       │   ├── rd_pipeline_color_blend_state_attachment.cpp
+│   │   │       │   ├── rd_pipeline_color_blend_state_attachment.linux.template_debug.x86_64.o
+│   │   │       │   ├── rd_pipeline_color_blend_state.cpp
+│   │   │       │   ├── rd_pipeline_color_blend_state.linux.template_debug.x86_64.o
+│   │   │       │   ├── rd_pipeline_depth_stencil_state.cpp
+│   │   │       │   ├── rd_pipeline_depth_stencil_state.linux.template_debug.x86_64.o
+│   │   │       │   ├── rd_pipeline_multisample_state.cpp
+│   │   │       │   ├── rd_pipeline_multisample_state.linux.template_debug.x86_64.o
+│   │   │       │   ├── rd_pipeline_rasterization_state.cpp
+│   │   │       │   ├── rd_pipeline_rasterization_state.linux.template_debug.x86_64.o
+│   │   │       │   ├── rd_pipeline_specialization_constant.cpp
+│   │   │       │   ├── rd_pipeline_specialization_constant.linux.template_debug.x86_64.o
+│   │   │       │   ├── rd_sampler_state.cpp
+│   │   │       │   ├── rd_sampler_state.linux.template_debug.x86_64.o
+│   │   │       │   ├── rd_shader_file.cpp
+│   │   │       │   ├── rd_shader_file.linux.template_debug.x86_64.o
+│   │   │       │   ├── rd_shader_source.cpp
+│   │   │       │   ├── rd_shader_source.linux.template_debug.x86_64.o
+│   │   │       │   ├── rd_shader_spirv.cpp
+│   │   │       │   ├── rd_shader_spirv.linux.template_debug.x86_64.o
+│   │   │       │   ├── rd_texture_format.cpp
+│   │   │       │   ├── rd_texture_format.linux.template_debug.x86_64.o
+│   │   │       │   ├── rd_texture_view.cpp
+│   │   │       │   ├── rd_texture_view.linux.template_debug.x86_64.o
+│   │   │       │   ├── rd_uniform.cpp
+│   │   │       │   ├── rd_uniform.linux.template_debug.x86_64.o
+│   │   │       │   ├── rd_vertex_attribute.cpp
+│   │   │       │   ├── rd_vertex_attribute.linux.template_debug.x86_64.o
+│   │   │       │   ├── rectangle_shape2d.cpp
+│   │   │       │   ├── rectangle_shape2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── ref_counted.cpp
+│   │   │       │   ├── ref_counted.linux.template_debug.x86_64.o
+│   │   │       │   ├── reference_rect.cpp
+│   │   │       │   ├── reference_rect.linux.template_debug.x86_64.o
+│   │   │       │   ├── reflection_probe.cpp
+│   │   │       │   ├── reflection_probe.linux.template_debug.x86_64.o
+│   │   │       │   ├── reg_ex.cpp
+│   │   │       │   ├── reg_ex.linux.template_debug.x86_64.o
+│   │   │       │   ├── reg_ex_match.cpp
+│   │   │       │   ├── reg_ex_match.linux.template_debug.x86_64.o
+│   │   │       │   ├── remote_transform2d.cpp
+│   │   │       │   ├── remote_transform2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── remote_transform3d.cpp
+│   │   │       │   ├── remote_transform3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── rendering_device.cpp
+│   │   │       │   ├── rendering_device.linux.template_debug.x86_64.o
+│   │   │       │   ├── rendering_server.cpp
+│   │   │       │   ├── rendering_server.linux.template_debug.x86_64.o
+│   │   │       │   ├── render_scene_buffers_configuration.cpp
+│   │   │       │   ├── render_scene_buffers_configuration.linux.template_debug.x86_64.o
+│   │   │       │   ├── render_scene_buffers.cpp
+│   │   │       │   ├── render_scene_buffers_extension.cpp
+│   │   │       │   ├── render_scene_buffers_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── render_scene_buffers.linux.template_debug.x86_64.o
+│   │   │       │   ├── render_scene_buffers_rd.cpp
+│   │   │       │   ├── render_scene_buffers_rd.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource.cpp
+│   │   │       │   ├── resource_format_loader.cpp
+│   │   │       │   ├── resource_format_loader.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_format_saver.cpp
+│   │   │       │   ├── resource_format_saver.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_importer_bit_map.cpp
+│   │   │       │   ├── resource_importer_bit_map.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_importer_bm_font.cpp
+│   │   │       │   ├── resource_importer_bm_font.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_importer.cpp
+│   │   │       │   ├── resource_importer_csv_translation.cpp
+│   │   │       │   ├── resource_importer_csv_translation.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_importer_dynamic_font.cpp
+│   │   │       │   ├── resource_importer_dynamic_font.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_importer_image.cpp
+│   │   │       │   ├── resource_importer_image_font.cpp
+│   │   │       │   ├── resource_importer_image_font.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_importer_image.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_importer_layered_texture.cpp
+│   │   │       │   ├── resource_importer_layered_texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_importer.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_importer_mp3.cpp
+│   │   │       │   ├── resource_importer_mp3.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_importer_obj.cpp
+│   │   │       │   ├── resource_importer_obj.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_importer_ogg_vorbis.cpp
+│   │   │       │   ├── resource_importer_ogg_vorbis.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_importer_scene.cpp
+│   │   │       │   ├── resource_importer_scene.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_importer_shader_file.cpp
+│   │   │       │   ├── resource_importer_shader_file.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_importer_texture_atlas.cpp
+│   │   │       │   ├── resource_importer_texture_atlas.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_importer_texture.cpp
+│   │   │       │   ├── resource_importer_texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_importer_wav.cpp
+│   │   │       │   ├── resource_importer_wav.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_loader.cpp
+│   │   │       │   ├── resource_loader.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_preloader.cpp
+│   │   │       │   ├── resource_preloader.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_saver.cpp
+│   │   │       │   ├── resource_saver.linux.template_debug.x86_64.o
+│   │   │       │   ├── resource_uid.cpp
+│   │   │       │   ├── resource_uid.linux.template_debug.x86_64.o
+│   │   │       │   ├── ribbon_trail_mesh.cpp
+│   │   │       │   ├── ribbon_trail_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── rich_text_effect.cpp
+│   │   │       │   ├── rich_text_effect.linux.template_debug.x86_64.o
+│   │   │       │   ├── rich_text_label.cpp
+│   │   │       │   ├── rich_text_label.linux.template_debug.x86_64.o
+│   │   │       │   ├── rigid_body2d.cpp
+│   │   │       │   ├── rigid_body2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── rigid_body3d.cpp
+│   │   │       │   ├── rigid_body3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── root_motion_view.cpp
+│   │   │       │   ├── root_motion_view.linux.template_debug.x86_64.o
+│   │   │       │   ├── scene_multiplayer.cpp
+│   │   │       │   ├── scene_multiplayer.linux.template_debug.x86_64.o
+│   │   │       │   ├── scene_replication_config.cpp
+│   │   │       │   ├── scene_replication_config.linux.template_debug.x86_64.o
+│   │   │       │   ├── scene_state.cpp
+│   │   │       │   ├── scene_state.linux.template_debug.x86_64.o
+│   │   │       │   ├── scene_tree.cpp
+│   │   │       │   ├── scene_tree.linux.template_debug.x86_64.o
+│   │   │       │   ├── scene_tree_timer.cpp
+│   │   │       │   ├── scene_tree_timer.linux.template_debug.x86_64.o
+│   │   │       │   ├── script.cpp
+│   │   │       │   ├── script_create_dialog.cpp
+│   │   │       │   ├── script_create_dialog.linux.template_debug.x86_64.o
+│   │   │       │   ├── script_editor_base.cpp
+│   │   │       │   ├── script_editor_base.linux.template_debug.x86_64.o
+│   │   │       │   ├── script_editor.cpp
+│   │   │       │   ├── script_editor.linux.template_debug.x86_64.o
+│   │   │       │   ├── script_extension.cpp
+│   │   │       │   ├── script_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── script_language.cpp
+│   │   │       │   ├── script_language_extension.cpp
+│   │   │       │   ├── script_language_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── script_language.linux.template_debug.x86_64.o
+│   │   │       │   ├── script.linux.template_debug.x86_64.o
+│   │   │       │   ├── scroll_bar.cpp
+│   │   │       │   ├── scroll_bar.linux.template_debug.x86_64.o
+│   │   │       │   ├── scroll_container.cpp
+│   │   │       │   ├── scroll_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── segment_shape2d.cpp
+│   │   │       │   ├── segment_shape2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── semaphore.cpp
+│   │   │       │   ├── semaphore.linux.template_debug.x86_64.o
+│   │   │       │   ├── separation_ray_shape2d.cpp
+│   │   │       │   ├── separation_ray_shape2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── separation_ray_shape3d.cpp
+│   │   │       │   ├── separation_ray_shape3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── separator.cpp
+│   │   │       │   ├── separator.linux.template_debug.x86_64.o
+│   │   │       │   ├── shader.cpp
+│   │   │       │   ├── shader_globals_override.cpp
+│   │   │       │   ├── shader_globals_override.linux.template_debug.x86_64.o
+│   │   │       │   ├── shader_include.cpp
+│   │   │       │   ├── shader_include.linux.template_debug.x86_64.o
+│   │   │       │   ├── shader.linux.template_debug.x86_64.o
+│   │   │       │   ├── shader_material.cpp
+│   │   │       │   ├── shader_material.linux.template_debug.x86_64.o
+│   │   │       │   ├── shape2d.cpp
+│   │   │       │   ├── shape2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── shape3d.cpp
+│   │   │       │   ├── shape3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── shape_cast2d.cpp
+│   │   │       │   ├── shape_cast2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── shape_cast3d.cpp
+│   │   │       │   ├── shape_cast3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── shortcut.cpp
+│   │   │       │   ├── shortcut.linux.template_debug.x86_64.o
+│   │   │       │   ├── skeleton2d.cpp
+│   │   │       │   ├── skeleton2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── skeleton3d.cpp
+│   │   │       │   ├── skeleton3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── skeleton_ik3d.cpp
+│   │   │       │   ├── skeleton_ik3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── skeleton_modification2dccdik.cpp
+│   │   │       │   ├── skeleton_modification2dccdik.linux.template_debug.x86_64.o
+│   │   │       │   ├── skeleton_modification2d.cpp
+│   │   │       │   ├── skeleton_modification2dfabrik.cpp
+│   │   │       │   ├── skeleton_modification2dfabrik.linux.template_debug.x86_64.o
+│   │   │       │   ├── skeleton_modification2d_jiggle.cpp
+│   │   │       │   ├── skeleton_modification2d_jiggle.linux.template_debug.x86_64.o
+│   │   │       │   ├── skeleton_modification2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── skeleton_modification2d_look_at.cpp
+│   │   │       │   ├── skeleton_modification2d_look_at.linux.template_debug.x86_64.o
+│   │   │       │   ├── skeleton_modification2d_physical_bones.cpp
+│   │   │       │   ├── skeleton_modification2d_physical_bones.linux.template_debug.x86_64.o
+│   │   │       │   ├── skeleton_modification2d_stack_holder.cpp
+│   │   │       │   ├── skeleton_modification2d_stack_holder.linux.template_debug.x86_64.o
+│   │   │       │   ├── skeleton_modification2d_two_bone_ik.cpp
+│   │   │       │   ├── skeleton_modification2d_two_bone_ik.linux.template_debug.x86_64.o
+│   │   │       │   ├── skeleton_modification_stack2d.cpp
+│   │   │       │   ├── skeleton_modification_stack2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── skeleton_profile.cpp
+│   │   │       │   ├── skeleton_profile_humanoid.cpp
+│   │   │       │   ├── skeleton_profile_humanoid.linux.template_debug.x86_64.o
+│   │   │       │   ├── skeleton_profile.linux.template_debug.x86_64.o
+│   │   │       │   ├── skin.cpp
+│   │   │       │   ├── skin.linux.template_debug.x86_64.o
+│   │   │       │   ├── skin_reference.cpp
+│   │   │       │   ├── skin_reference.linux.template_debug.x86_64.o
+│   │   │       │   ├── sky.cpp
+│   │   │       │   ├── sky.linux.template_debug.x86_64.o
+│   │   │       │   ├── slider.cpp
+│   │   │       │   ├── slider_joint3d.cpp
+│   │   │       │   ├── slider_joint3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── slider.linux.template_debug.x86_64.o
+│   │   │       │   ├── soft_body3d.cpp
+│   │   │       │   ├── soft_body3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── sphere_mesh.cpp
+│   │   │       │   ├── sphere_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── sphere_occluder3d.cpp
+│   │   │       │   ├── sphere_occluder3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── sphere_shape3d.cpp
+│   │   │       │   ├── sphere_shape3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── spin_box.cpp
+│   │   │       │   ├── spin_box.linux.template_debug.x86_64.o
+│   │   │       │   ├── split_container.cpp
+│   │   │       │   ├── split_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── spot_light3d.cpp
+│   │   │       │   ├── spot_light3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── spring_arm3d.cpp
+│   │   │       │   ├── spring_arm3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── sprite2d.cpp
+│   │   │       │   ├── sprite2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── sprite3d.cpp
+│   │   │       │   ├── sprite3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── sprite_base3d.cpp
+│   │   │       │   ├── sprite_base3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── sprite_frames.cpp
+│   │   │       │   ├── sprite_frames.linux.template_debug.x86_64.o
+│   │   │       │   ├── standard_material3d.cpp
+│   │   │       │   ├── standard_material3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── static_body2d.cpp
+│   │   │       │   ├── static_body2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── static_body3d.cpp
+│   │   │       │   ├── static_body3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── stream_peer_buffer.cpp
+│   │   │       │   ├── stream_peer_buffer.linux.template_debug.x86_64.o
+│   │   │       │   ├── stream_peer.cpp
+│   │   │       │   ├── stream_peer_extension.cpp
+│   │   │       │   ├── stream_peer_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── stream_peer_gzip.cpp
+│   │   │       │   ├── stream_peer_gzip.linux.template_debug.x86_64.o
+│   │   │       │   ├── stream_peer.linux.template_debug.x86_64.o
+│   │   │       │   ├── stream_peer_tcp.cpp
+│   │   │       │   ├── stream_peer_tcp.linux.template_debug.x86_64.o
+│   │   │       │   ├── stream_peer_tls.cpp
+│   │   │       │   ├── stream_peer_tls.linux.template_debug.x86_64.o
+│   │   │       │   ├── style_box.cpp
+│   │   │       │   ├── style_box_empty.cpp
+│   │   │       │   ├── style_box_empty.linux.template_debug.x86_64.o
+│   │   │       │   ├── style_box_flat.cpp
+│   │   │       │   ├── style_box_flat.linux.template_debug.x86_64.o
+│   │   │       │   ├── style_box_line.cpp
+│   │   │       │   ├── style_box_line.linux.template_debug.x86_64.o
+│   │   │       │   ├── style_box.linux.template_debug.x86_64.o
+│   │   │       │   ├── style_box_texture.cpp
+│   │   │       │   ├── style_box_texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── sub_viewport_container.cpp
+│   │   │       │   ├── sub_viewport_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── sub_viewport.cpp
+│   │   │       │   ├── sub_viewport.linux.template_debug.x86_64.o
+│   │   │       │   ├── surface_tool.cpp
+│   │   │       │   ├── surface_tool.linux.template_debug.x86_64.o
+│   │   │       │   ├── syntax_highlighter.cpp
+│   │   │       │   ├── syntax_highlighter.linux.template_debug.x86_64.o
+│   │   │       │   ├── system_font.cpp
+│   │   │       │   ├── system_font.linux.template_debug.x86_64.o
+│   │   │       │   ├── tab_bar.cpp
+│   │   │       │   ├── tab_bar.linux.template_debug.x86_64.o
+│   │   │       │   ├── tab_container.cpp
+│   │   │       │   ├── tab_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── tcp_server.cpp
+│   │   │       │   ├── tcp_server.linux.template_debug.x86_64.o
+│   │   │       │   ├── text_edit.cpp
+│   │   │       │   ├── text_edit.linux.template_debug.x86_64.o
+│   │   │       │   ├── text_line.cpp
+│   │   │       │   ├── text_line.linux.template_debug.x86_64.o
+│   │   │       │   ├── text_mesh.cpp
+│   │   │       │   ├── text_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── text_paragraph.cpp
+│   │   │       │   ├── text_paragraph.linux.template_debug.x86_64.o
+│   │   │       │   ├── text_server_advanced.cpp
+│   │   │       │   ├── text_server_advanced.linux.template_debug.x86_64.o
+│   │   │       │   ├── text_server.cpp
+│   │   │       │   ├── text_server_dummy.cpp
+│   │   │       │   ├── text_server_dummy.linux.template_debug.x86_64.o
+│   │   │       │   ├── text_server_extension.cpp
+│   │   │       │   ├── text_server_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── text_server.linux.template_debug.x86_64.o
+│   │   │       │   ├── text_server_manager.cpp
+│   │   │       │   ├── text_server_manager.linux.template_debug.x86_64.o
+│   │   │       │   ├── texture2d_array.cpp
+│   │   │       │   ├── texture2d_array.linux.template_debug.x86_64.o
+│   │   │       │   ├── texture2d_array_rd.cpp
+│   │   │       │   ├── texture2d_array_rd.linux.template_debug.x86_64.o
+│   │   │       │   ├── texture2d.cpp
+│   │   │       │   ├── texture2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── texture2drd.cpp
+│   │   │       │   ├── texture2drd.linux.template_debug.x86_64.o
+│   │   │       │   ├── texture3d.cpp
+│   │   │       │   ├── texture3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── texture3drd.cpp
+│   │   │       │   ├── texture3drd.linux.template_debug.x86_64.o
+│   │   │       │   ├── texture_button.cpp
+│   │   │       │   ├── texture_button.linux.template_debug.x86_64.o
+│   │   │       │   ├── texture.cpp
+│   │   │       │   ├── texture_cubemap_array_rd.cpp
+│   │   │       │   ├── texture_cubemap_array_rd.linux.template_debug.x86_64.o
+│   │   │       │   ├── texture_cubemap_rd.cpp
+│   │   │       │   ├── texture_cubemap_rd.linux.template_debug.x86_64.o
+│   │   │       │   ├── texture_layered.cpp
+│   │   │       │   ├── texture_layered.linux.template_debug.x86_64.o
+│   │   │       │   ├── texture_layered_rd.cpp
+│   │   │       │   ├── texture_layered_rd.linux.template_debug.x86_64.o
+│   │   │       │   ├── texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── texture_progress_bar.cpp
+│   │   │       │   ├── texture_progress_bar.linux.template_debug.x86_64.o
+│   │   │       │   ├── texture_rect.cpp
+│   │   │       │   ├── texture_rect.linux.template_debug.x86_64.o
+│   │   │       │   ├── theme.cpp
+│   │   │       │   ├── theme_db.cpp
+│   │   │       │   ├── theme_db.linux.template_debug.x86_64.o
+│   │   │       │   ├── theme.linux.template_debug.x86_64.o
+│   │   │       │   ├── thread.cpp
+│   │   │       │   ├── thread.linux.template_debug.x86_64.o
+│   │   │       │   ├── tile_data.cpp
+│   │   │       │   ├── tile_data.linux.template_debug.x86_64.o
+│   │   │       │   ├── tile_map.cpp
+│   │   │       │   ├── tile_map.linux.template_debug.x86_64.o
+│   │   │       │   ├── tile_map_pattern.cpp
+│   │   │       │   ├── tile_map_pattern.linux.template_debug.x86_64.o
+│   │   │       │   ├── tile_set_atlas_source.cpp
+│   │   │       │   ├── tile_set_atlas_source.linux.template_debug.x86_64.o
+│   │   │       │   ├── tile_set.cpp
+│   │   │       │   ├── tile_set.linux.template_debug.x86_64.o
+│   │   │       │   ├── tile_set_scenes_collection_source.cpp
+│   │   │       │   ├── tile_set_scenes_collection_source.linux.template_debug.x86_64.o
+│   │   │       │   ├── tile_set_source.cpp
+│   │   │       │   ├── tile_set_source.linux.template_debug.x86_64.o
+│   │   │       │   ├── time.cpp
+│   │   │       │   ├── time.linux.template_debug.x86_64.o
+│   │   │       │   ├── timer.cpp
+│   │   │       │   ├── timer.linux.template_debug.x86_64.o
+│   │   │       │   ├── tls_options.cpp
+│   │   │       │   ├── tls_options.linux.template_debug.x86_64.o
+│   │   │       │   ├── torus_mesh.cpp
+│   │   │       │   ├── torus_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── touch_screen_button.cpp
+│   │   │       │   ├── touch_screen_button.linux.template_debug.x86_64.o
+│   │   │       │   ├── translation.cpp
+│   │   │       │   ├── translation.linux.template_debug.x86_64.o
+│   │   │       │   ├── translation_server.cpp
+│   │   │       │   ├── translation_server.linux.template_debug.x86_64.o
+│   │   │       │   ├── tree.cpp
+│   │   │       │   ├── tree_item.cpp
+│   │   │       │   ├── tree_item.linux.template_debug.x86_64.o
+│   │   │       │   ├── tree.linux.template_debug.x86_64.o
+│   │   │       │   ├── triangle_mesh.cpp
+│   │   │       │   ├── triangle_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── tube_trail_mesh.cpp
+│   │   │       │   ├── tube_trail_mesh.linux.template_debug.x86_64.o
+│   │   │       │   ├── tween.cpp
+│   │   │       │   ├── tweener.cpp
+│   │   │       │   ├── tweener.linux.template_debug.x86_64.o
+│   │   │       │   ├── tween.linux.template_debug.x86_64.o
+│   │   │       │   ├── udp_server.cpp
+│   │   │       │   ├── udp_server.linux.template_debug.x86_64.o
+│   │   │       │   ├── undo_redo.cpp
+│   │   │       │   ├── undo_redo.linux.template_debug.x86_64.o
+│   │   │       │   ├── upnp.cpp
+│   │   │       │   ├── upnp_device.cpp
+│   │   │       │   ├── upnp_device.linux.template_debug.x86_64.o
+│   │   │       │   ├── upnp.linux.template_debug.x86_64.o
+│   │   │       │   ├── v_box_container.cpp
+│   │   │       │   ├── v_box_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── vehicle_body3d.cpp
+│   │   │       │   ├── vehicle_body3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── vehicle_wheel3d.cpp
+│   │   │       │   ├── vehicle_wheel3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── v_flow_container.cpp
+│   │   │       │   ├── v_flow_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── video_stream.cpp
+│   │   │       │   ├── video_stream.linux.template_debug.x86_64.o
+│   │   │       │   ├── video_stream_playback.cpp
+│   │   │       │   ├── video_stream_playback.linux.template_debug.x86_64.o
+│   │   │       │   ├── video_stream_player.cpp
+│   │   │       │   ├── video_stream_player.linux.template_debug.x86_64.o
+│   │   │       │   ├── video_stream_theora.cpp
+│   │   │       │   ├── video_stream_theora.linux.template_debug.x86_64.o
+│   │   │       │   ├── viewport.cpp
+│   │   │       │   ├── viewport.linux.template_debug.x86_64.o
+│   │   │       │   ├── viewport_texture.cpp
+│   │   │       │   ├── viewport_texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── visible_on_screen_enabler2d.cpp
+│   │   │       │   ├── visible_on_screen_enabler2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── visible_on_screen_enabler3d.cpp
+│   │   │       │   ├── visible_on_screen_enabler3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── visible_on_screen_notifier2d.cpp
+│   │   │       │   ├── visible_on_screen_notifier2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── visible_on_screen_notifier3d.cpp
+│   │   │       │   ├── visible_on_screen_notifier3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_instance3d.cpp
+│   │   │       │   ├── visual_instance3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader.cpp
+│   │   │       │   ├── visual_shader.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_billboard.cpp
+│   │   │       │   ├── visual_shader_node_billboard.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_boolean_constant.cpp
+│   │   │       │   ├── visual_shader_node_boolean_constant.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_boolean_parameter.cpp
+│   │   │       │   ├── visual_shader_node_boolean_parameter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_clamp.cpp
+│   │   │       │   ├── visual_shader_node_clamp.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_color_constant.cpp
+│   │   │       │   ├── visual_shader_node_color_constant.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_color_func.cpp
+│   │   │       │   ├── visual_shader_node_color_func.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_color_op.cpp
+│   │   │       │   ├── visual_shader_node_color_op.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_color_parameter.cpp
+│   │   │       │   ├── visual_shader_node_color_parameter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_comment.cpp
+│   │   │       │   ├── visual_shader_node_comment.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_compare.cpp
+│   │   │       │   ├── visual_shader_node_compare.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_constant.cpp
+│   │   │       │   ├── visual_shader_node_constant.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node.cpp
+│   │   │       │   ├── visual_shader_node_cubemap.cpp
+│   │   │       │   ├── visual_shader_node_cubemap.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_cubemap_parameter.cpp
+│   │   │       │   ├── visual_shader_node_cubemap_parameter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_curve_texture.cpp
+│   │   │       │   ├── visual_shader_node_curve_texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_curve_xyz_texture.cpp
+│   │   │       │   ├── visual_shader_node_curve_xyz_texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_custom.cpp
+│   │   │       │   ├── visual_shader_node_custom.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_derivative_func.cpp
+│   │   │       │   ├── visual_shader_node_derivative_func.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_determinant.cpp
+│   │   │       │   ├── visual_shader_node_determinant.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_distance_fade.cpp
+│   │   │       │   ├── visual_shader_node_distance_fade.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_dot_product.cpp
+│   │   │       │   ├── visual_shader_node_dot_product.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_expression.cpp
+│   │   │       │   ├── visual_shader_node_expression.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_face_forward.cpp
+│   │   │       │   ├── visual_shader_node_face_forward.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_float_constant.cpp
+│   │   │       │   ├── visual_shader_node_float_constant.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_float_func.cpp
+│   │   │       │   ├── visual_shader_node_float_func.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_float_op.cpp
+│   │   │       │   ├── visual_shader_node_float_op.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_float_parameter.cpp
+│   │   │       │   ├── visual_shader_node_float_parameter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_fresnel.cpp
+│   │   │       │   ├── visual_shader_node_fresnel.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_global_expression.cpp
+│   │   │       │   ├── visual_shader_node_global_expression.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_group_base.cpp
+│   │   │       │   ├── visual_shader_node_group_base.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_if.cpp
+│   │   │       │   ├── visual_shader_node_if.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_input.cpp
+│   │   │       │   ├── visual_shader_node_input.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_int_constant.cpp
+│   │   │       │   ├── visual_shader_node_int_constant.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_int_func.cpp
+│   │   │       │   ├── visual_shader_node_int_func.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_int_op.cpp
+│   │   │       │   ├── visual_shader_node_int_op.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_int_parameter.cpp
+│   │   │       │   ├── visual_shader_node_int_parameter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_is.cpp
+│   │   │       │   ├── visual_shader_node_is.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_linear_scene_depth.cpp
+│   │   │       │   ├── visual_shader_node_linear_scene_depth.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_mix.cpp
+│   │   │       │   ├── visual_shader_node_mix.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_multiply_add.cpp
+│   │   │       │   ├── visual_shader_node_multiply_add.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_outer_product.cpp
+│   │   │       │   ├── visual_shader_node_outer_product.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_output.cpp
+│   │   │       │   ├── visual_shader_node_output.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_parameter.cpp
+│   │   │       │   ├── visual_shader_node_parameter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_parameter_ref.cpp
+│   │   │       │   ├── visual_shader_node_parameter_ref.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_particle_accelerator.cpp
+│   │   │       │   ├── visual_shader_node_particle_accelerator.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_particle_box_emitter.cpp
+│   │   │       │   ├── visual_shader_node_particle_box_emitter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_particle_cone_velocity.cpp
+│   │   │       │   ├── visual_shader_node_particle_cone_velocity.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_particle_emit.cpp
+│   │   │       │   ├── visual_shader_node_particle_emit.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_particle_emitter.cpp
+│   │   │       │   ├── visual_shader_node_particle_emitter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_particle_mesh_emitter.cpp
+│   │   │       │   ├── visual_shader_node_particle_mesh_emitter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_particle_multiply_by_axis_angle.cpp
+│   │   │       │   ├── visual_shader_node_particle_multiply_by_axis_angle.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_particle_output.cpp
+│   │   │       │   ├── visual_shader_node_particle_output.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_particle_randomness.cpp
+│   │   │       │   ├── visual_shader_node_particle_randomness.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_particle_ring_emitter.cpp
+│   │   │       │   ├── visual_shader_node_particle_ring_emitter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_particle_sphere_emitter.cpp
+│   │   │       │   ├── visual_shader_node_particle_sphere_emitter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_proximity_fade.cpp
+│   │   │       │   ├── visual_shader_node_proximity_fade.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_random_range.cpp
+│   │   │       │   ├── visual_shader_node_random_range.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_remap.cpp
+│   │   │       │   ├── visual_shader_node_remap.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_resizable_base.cpp
+│   │   │       │   ├── visual_shader_node_resizable_base.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_rotation_by_axis.cpp
+│   │   │       │   ├── visual_shader_node_rotation_by_axis.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_sample3d.cpp
+│   │   │       │   ├── visual_shader_node_sample3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_screen_normal_world_space.cpp
+│   │   │       │   ├── visual_shader_node_screen_normal_world_space.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_screen_uv_to_sdf.cpp
+│   │   │       │   ├── visual_shader_node_screen_uv_to_sdf.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_sdf_raymarch.cpp
+│   │   │       │   ├── visual_shader_node_sdf_raymarch.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_sdf_to_screen_uv.cpp
+│   │   │       │   ├── visual_shader_node_sdf_to_screen_uv.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_smooth_step.cpp
+│   │   │       │   ├── visual_shader_node_smooth_step.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_step.cpp
+│   │   │       │   ├── visual_shader_node_step.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_switch.cpp
+│   │   │       │   ├── visual_shader_node_switch.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_texture2d_array.cpp
+│   │   │       │   ├── visual_shader_node_texture2d_array.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_texture2d_array_parameter.cpp
+│   │   │       │   ├── visual_shader_node_texture2d_array_parameter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_texture2d_parameter.cpp
+│   │   │       │   ├── visual_shader_node_texture2d_parameter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_texture3d.cpp
+│   │   │       │   ├── visual_shader_node_texture3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_texture3d_parameter.cpp
+│   │   │       │   ├── visual_shader_node_texture3d_parameter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_texture.cpp
+│   │   │       │   ├── visual_shader_node_texture.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_texture_parameter.cpp
+│   │   │       │   ├── visual_shader_node_texture_parameter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_texture_parameter_triplanar.cpp
+│   │   │       │   ├── visual_shader_node_texture_parameter_triplanar.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_texture_sdf.cpp
+│   │   │       │   ├── visual_shader_node_texture_sdf.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_texture_sdf_normal.cpp
+│   │   │       │   ├── visual_shader_node_texture_sdf_normal.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_transform_compose.cpp
+│   │   │       │   ├── visual_shader_node_transform_compose.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_transform_constant.cpp
+│   │   │       │   ├── visual_shader_node_transform_constant.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_transform_decompose.cpp
+│   │   │       │   ├── visual_shader_node_transform_decompose.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_transform_func.cpp
+│   │   │       │   ├── visual_shader_node_transform_func.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_transform_op.cpp
+│   │   │       │   ├── visual_shader_node_transform_op.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_transform_parameter.cpp
+│   │   │       │   ├── visual_shader_node_transform_parameter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_transform_vec_mult.cpp
+│   │   │       │   ├── visual_shader_node_transform_vec_mult.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_u_int_constant.cpp
+│   │   │       │   ├── visual_shader_node_u_int_constant.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_u_int_func.cpp
+│   │   │       │   ├── visual_shader_node_u_int_func.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_u_int_op.cpp
+│   │   │       │   ├── visual_shader_node_u_int_op.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_u_int_parameter.cpp
+│   │   │       │   ├── visual_shader_node_u_int_parameter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_uv_func.cpp
+│   │   │       │   ├── visual_shader_node_uv_func.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_uv_polar_coord.cpp
+│   │   │       │   ├── visual_shader_node_uv_polar_coord.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_varying.cpp
+│   │   │       │   ├── visual_shader_node_varying_getter.cpp
+│   │   │       │   ├── visual_shader_node_varying_getter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_varying.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_varying_setter.cpp
+│   │   │       │   ├── visual_shader_node_varying_setter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_vec2_constant.cpp
+│   │   │       │   ├── visual_shader_node_vec2_constant.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_vec2_parameter.cpp
+│   │   │       │   ├── visual_shader_node_vec2_parameter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_vec3_constant.cpp
+│   │   │       │   ├── visual_shader_node_vec3_constant.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_vec3_parameter.cpp
+│   │   │       │   ├── visual_shader_node_vec3_parameter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_vec4_constant.cpp
+│   │   │       │   ├── visual_shader_node_vec4_constant.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_vec4_parameter.cpp
+│   │   │       │   ├── visual_shader_node_vec4_parameter.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_vector_base.cpp
+│   │   │       │   ├── visual_shader_node_vector_base.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_vector_compose.cpp
+│   │   │       │   ├── visual_shader_node_vector_compose.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_vector_decompose.cpp
+│   │   │       │   ├── visual_shader_node_vector_decompose.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_vector_distance.cpp
+│   │   │       │   ├── visual_shader_node_vector_distance.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_vector_func.cpp
+│   │   │       │   ├── visual_shader_node_vector_func.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_vector_len.cpp
+│   │   │       │   ├── visual_shader_node_vector_len.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_vector_op.cpp
+│   │   │       │   ├── visual_shader_node_vector_op.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_vector_refract.cpp
+│   │   │       │   ├── visual_shader_node_vector_refract.linux.template_debug.x86_64.o
+│   │   │       │   ├── visual_shader_node_world_position_from_depth.cpp
+│   │   │       │   ├── visual_shader_node_world_position_from_depth.linux.template_debug.x86_64.o
+│   │   │       │   ├── voxel_gi.cpp
+│   │   │       │   ├── voxel_gi_data.cpp
+│   │   │       │   ├── voxel_gi_data.linux.template_debug.x86_64.o
+│   │   │       │   ├── voxel_gi.linux.template_debug.x86_64.o
+│   │   │       │   ├── v_scroll_bar.cpp
+│   │   │       │   ├── v_scroll_bar.linux.template_debug.x86_64.o
+│   │   │       │   ├── v_separator.cpp
+│   │   │       │   ├── v_separator.linux.template_debug.x86_64.o
+│   │   │       │   ├── v_slider.cpp
+│   │   │       │   ├── v_slider.linux.template_debug.x86_64.o
+│   │   │       │   ├── v_split_container.cpp
+│   │   │       │   ├── v_split_container.linux.template_debug.x86_64.o
+│   │   │       │   ├── weak_ref.cpp
+│   │   │       │   ├── weak_ref.linux.template_debug.x86_64.o
+│   │   │       │   ├── web_rtc_data_channel.cpp
+│   │   │       │   ├── web_rtc_data_channel_extension.cpp
+│   │   │       │   ├── web_rtc_data_channel_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── web_rtc_data_channel.linux.template_debug.x86_64.o
+│   │   │       │   ├── web_rtc_multiplayer_peer.cpp
+│   │   │       │   ├── web_rtc_multiplayer_peer.linux.template_debug.x86_64.o
+│   │   │       │   ├── web_rtc_peer_connection.cpp
+│   │   │       │   ├── web_rtc_peer_connection_extension.cpp
+│   │   │       │   ├── web_rtc_peer_connection_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── web_rtc_peer_connection.linux.template_debug.x86_64.o
+│   │   │       │   ├── web_socket_multiplayer_peer.cpp
+│   │   │       │   ├── web_socket_multiplayer_peer.linux.template_debug.x86_64.o
+│   │   │       │   ├── web_socket_peer.cpp
+│   │   │       │   ├── web_socket_peer.linux.template_debug.x86_64.o
+│   │   │       │   ├── web_xr_interface.cpp
+│   │   │       │   ├── web_xr_interface.linux.template_debug.x86_64.o
+│   │   │       │   ├── window.cpp
+│   │   │       │   ├── window.linux.template_debug.x86_64.o
+│   │   │       │   ├── worker_thread_pool.cpp
+│   │   │       │   ├── worker_thread_pool.linux.template_debug.x86_64.o
+│   │   │       │   ├── world2d.cpp
+│   │   │       │   ├── world2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── world3d.cpp
+│   │   │       │   ├── world3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── world_boundary_shape2d.cpp
+│   │   │       │   ├── world_boundary_shape2d.linux.template_debug.x86_64.o
+│   │   │       │   ├── world_boundary_shape3d.cpp
+│   │   │       │   ├── world_boundary_shape3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── world_environment.cpp
+│   │   │       │   ├── world_environment.linux.template_debug.x86_64.o
+│   │   │       │   ├── x509_certificate.cpp
+│   │   │       │   ├── x509_certificate.linux.template_debug.x86_64.o
+│   │   │       │   ├── xml_parser.cpp
+│   │   │       │   ├── xml_parser.linux.template_debug.x86_64.o
+│   │   │       │   ├── xr_anchor3d.cpp
+│   │   │       │   ├── xr_anchor3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── xr_camera3d.cpp
+│   │   │       │   ├── xr_camera3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── xr_controller3d.cpp
+│   │   │       │   ├── xr_controller3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── xr_interface.cpp
+│   │   │       │   ├── xr_interface_extension.cpp
+│   │   │       │   ├── xr_interface_extension.linux.template_debug.x86_64.o
+│   │   │       │   ├── xr_interface.linux.template_debug.x86_64.o
+│   │   │       │   ├── xr_node3d.cpp
+│   │   │       │   ├── xr_node3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── xr_origin3d.cpp
+│   │   │       │   ├── xr_origin3d.linux.template_debug.x86_64.o
+│   │   │       │   ├── xr_pose.cpp
+│   │   │       │   ├── xr_pose.linux.template_debug.x86_64.o
+│   │   │       │   ├── xr_positional_tracker.cpp
+│   │   │       │   ├── xr_positional_tracker.linux.template_debug.x86_64.o
+│   │   │       │   ├── xr_server.cpp
+│   │   │       │   ├── xr_server.linux.template_debug.x86_64.o
+│   │   │       │   ├── zip_packer.cpp
+│   │   │       │   ├── zip_packer.linux.template_debug.x86_64.o
+│   │   │       │   ├── zip_reader.cpp
+│   │   │       │   └── zip_reader.linux.template_debug.x86_64.o
+│   │   │       └── variant
+│   │   │           ├── array.cpp
+│   │   │           ├── array.linux.template_debug.x86_64.o
+│   │   │           ├── callable.cpp
+│   │   │           ├── callable.linux.template_debug.x86_64.o
+│   │   │           ├── dictionary.cpp
+│   │   │           ├── dictionary.linux.template_debug.x86_64.o
+│   │   │           ├── node_path.cpp
+│   │   │           ├── node_path.linux.template_debug.x86_64.o
+│   │   │           ├── packed_byte_array.cpp
+│   │   │           ├── packed_byte_array.linux.template_debug.x86_64.o
+│   │   │           ├── packed_color_array.cpp
+│   │   │           ├── packed_color_array.linux.template_debug.x86_64.o
+│   │   │           ├── packed_float32_array.cpp
+│   │   │           ├── packed_float32_array.linux.template_debug.x86_64.o
+│   │   │           ├── packed_float64_array.cpp
+│   │   │           ├── packed_float64_array.linux.template_debug.x86_64.o
+│   │   │           ├── packed_int32_array.cpp
+│   │   │           ├── packed_int32_array.linux.template_debug.x86_64.o
+│   │   │           ├── packed_int64_array.cpp
+│   │   │           ├── packed_int64_array.linux.template_debug.x86_64.o
+│   │   │           ├── packed_string_array.cpp
+│   │   │           ├── packed_string_array.linux.template_debug.x86_64.o
+│   │   │           ├── packed_vector2_array.cpp
+│   │   │           ├── packed_vector2_array.linux.template_debug.x86_64.o
+│   │   │           ├── packed_vector3_array.cpp
+│   │   │           ├── packed_vector3_array.linux.template_debug.x86_64.o
+│   │   │           ├── rid.cpp
+│   │   │           ├── rid.linux.template_debug.x86_64.o
+│   │   │           ├── signal.cpp
+│   │   │           ├── signal.linux.template_debug.x86_64.o
+│   │   │           ├── string.cpp
+│   │   │           ├── string.linux.template_debug.x86_64.o
+│   │   │           ├── string_name.cpp
+│   │   │           ├── string_name.linux.template_debug.x86_64.o
+│   │   │           ├── utility_functions.cpp
+│   │   │           └── utility_functions.linux.template_debug.x86_64.o
+│   │   ├── include
+│   │   │   └── godot_cpp
+│   │   │       ├── classes
+│   │   │       │   ├── editor_plugin_registration.hpp
+│   │   │       │   ├── ref.hpp
+│   │   │       │   └── wrapped.hpp
+│   │   │       ├── core
+│   │   │       │   ├── binder_common.hpp
+│   │   │       │   ├── builtin_ptrcall.hpp
+│   │   │       │   ├── class_db.hpp
+│   │   │       │   ├── defs.hpp
+│   │   │       │   ├── engine_ptrcall.hpp
+│   │   │       │   ├── error_macros.hpp
+│   │   │       │   ├── math.hpp
+│   │   │       │   ├── memory.hpp
+│   │   │       │   ├── method_bind.hpp
+│   │   │       │   ├── method_ptrcall.hpp
+│   │   │       │   ├── mutex_lock.hpp
+│   │   │       │   ├── object.hpp
+│   │   │       │   ├── object_id.hpp
+│   │   │       │   ├── property_info.hpp
+│   │   │       │   └── type_info.hpp
+│   │   │       ├── godot.hpp
+│   │   │       ├── templates
+│   │   │       │   ├── cowdata.hpp
+│   │   │       │   ├── hashfuncs.hpp
+│   │   │       │   ├── hash_map.hpp
+│   │   │       │   ├── hash_set.hpp
+│   │   │       │   ├── list.hpp
+│   │   │       │   ├── local_vector.hpp
+│   │   │       │   ├── pair.hpp
+│   │   │       │   ├── rb_map.hpp
+│   │   │       │   ├── rb_set.hpp
+│   │   │       │   ├── rid_owner.hpp
+│   │   │       │   ├── safe_refcount.hpp
+│   │   │       │   ├── search_array.hpp
+│   │   │       │   ├── self_list.hpp
+│   │   │       │   ├── sort_array.hpp
+│   │   │       │   ├── spin_lock.hpp
+│   │   │       │   ├── thread_work_pool.hpp
+│   │   │       │   ├── vector.hpp
+│   │   │       │   ├── vmap.hpp
+│   │   │       │   └── vset.hpp
+│   │   │       └── variant
+│   │   │           ├── aabb.hpp
+│   │   │           ├── array_helpers.hpp
+│   │   │           ├── basis.hpp
+│   │   │           ├── callable_custom.hpp
+│   │   │           ├── callable_method_pointer.hpp
+│   │   │           ├── char_string.hpp
+│   │   │           ├── char_utils.hpp
+│   │   │           ├── color.hpp
+│   │   │           ├── color_names.inc.hpp
+│   │   │           ├── plane.hpp
+│   │   │           ├── projection.hpp
+│   │   │           ├── quaternion.hpp
+│   │   │           ├── rect2.hpp
+│   │   │           ├── rect2i.hpp
+│   │   │           ├── transform2d.hpp
+│   │   │           ├── transform3d.hpp
+│   │   │           ├── typed_array.hpp
+│   │   │           ├── variant.hpp
+│   │   │           ├── vector2.hpp
+│   │   │           ├── vector2i.hpp
+│   │   │           ├── vector3.hpp
+│   │   │           ├── vector3i.hpp
+│   │   │           ├── vector4.hpp
+│   │   │           └── vector4i.hpp
+│   │   ├── LICENSE.md
+│   │   ├── Makefile
+│   │   ├── misc
+│   │   │   ├── ci
+│   │   │   │   └── sources.list
+│   │   │   └── scripts
+│   │   │       ├── check_ci_log.py
+│   │   │       ├── check_get_file_list.py
+│   │   │       ├── copyright_headers.py
+│   │   │       ├── file_format.py
+│   │   │       ├── header_guards.py
+│   │   │       └── make_tarball.sh
+│   │   ├── __pycache__
+│   │   │   ├── binding_generator.cpython-312.pyc
+│   │   │   └── build_profile.cpython-312.pyc
+│   │   ├── pyproject.toml
+│   │   ├── README.md
+│   │   ├── SConstruct
+│   │   ├── src
+│   │   │   ├── classes
+│   │   │   │   ├── editor_plugin_registration.cpp
+│   │   │   │   ├── editor_plugin_registration.linux.template_debug.x86_64.o
+│   │   │   │   ├── low_level.cpp
+│   │   │   │   ├── low_level.linux.template_debug.x86_64.o
+│   │   │   │   ├── wrapped.cpp
+│   │   │   │   └── wrapped.linux.template_debug.x86_64.o
+│   │   │   ├── core
+│   │   │   │   ├── class_db.cpp
+│   │   │   │   ├── class_db.linux.template_debug.x86_64.o
+│   │   │   │   ├── error_macros.cpp
+│   │   │   │   ├── error_macros.linux.template_debug.x86_64.o
+│   │   │   │   ├── memory.cpp
+│   │   │   │   ├── memory.linux.template_debug.x86_64.o
+│   │   │   │   ├── method_bind.cpp
+│   │   │   │   ├── method_bind.linux.template_debug.x86_64.o
+│   │   │   │   ├── object.cpp
+│   │   │   │   └── object.linux.template_debug.x86_64.o
+│   │   │   ├── godot.cpp
+│   │   │   ├── godot.linux.template_debug.x86_64.o
+│   │   │   └── variant
+│   │   │       ├── aabb.cpp
+│   │   │       ├── aabb.linux.template_debug.x86_64.o
+│   │   │       ├── basis.cpp
+│   │   │       ├── basis.linux.template_debug.x86_64.o
+│   │   │       ├── callable_custom.cpp
+│   │   │       ├── callable_custom.linux.template_debug.x86_64.o
+│   │   │       ├── callable_method_pointer.cpp
+│   │   │       ├── callable_method_pointer.linux.template_debug.x86_64.o
+│   │   │       ├── char_string.cpp
+│   │   │       ├── char_string.linux.template_debug.x86_64.o
+│   │   │       ├── color.cpp
+│   │   │       ├── color.linux.template_debug.x86_64.o
+│   │   │       ├── packed_arrays.cpp
+│   │   │       ├── packed_arrays.linux.template_debug.x86_64.o
+│   │   │       ├── plane.cpp
+│   │   │       ├── plane.linux.template_debug.x86_64.o
+│   │   │       ├── projection.cpp
+│   │   │       ├── projection.linux.template_debug.x86_64.o
+│   │   │       ├── quaternion.cpp
+│   │   │       ├── quaternion.linux.template_debug.x86_64.o
+│   │   │       ├── rect2.cpp
+│   │   │       ├── rect2i.cpp
+│   │   │       ├── rect2i.linux.template_debug.x86_64.o
+│   │   │       ├── rect2.linux.template_debug.x86_64.o
+│   │   │       ├── transform2d.cpp
+│   │   │       ├── transform2d.linux.template_debug.x86_64.o
+│   │   │       ├── transform3d.cpp
+│   │   │       ├── transform3d.linux.template_debug.x86_64.o
+│   │   │       ├── variant.cpp
+│   │   │       ├── variant.linux.template_debug.x86_64.o
+│   │   │       ├── vector2.cpp
+│   │   │       ├── vector2i.cpp
+│   │   │       ├── vector2i.linux.template_debug.x86_64.o
+│   │   │       ├── vector2.linux.template_debug.x86_64.o
+│   │   │       ├── vector3.cpp
+│   │   │       ├── vector3i.cpp
+│   │   │       ├── vector3i.linux.template_debug.x86_64.o
+│   │   │       ├── vector3.linux.template_debug.x86_64.o
+│   │   │       ├── vector4.cpp
+│   │   │       ├── vector4i.cpp
+│   │   │       ├── vector4i.linux.template_debug.x86_64.o
+│   │   │       └── vector4.linux.template_debug.x86_64.o
+│   │   ├── test
+│   │   │   ├── build_profile.json
+│   │   │   ├── CMakeLists.txt
+│   │   │   ├── generate_xcframework.sh
+│   │   │   ├── project
+│   │   │   │   ├── bin
+│   │   │   │   │   ├── libgdexample.macos.template_debug.framework
+│   │   │   │   │   │   └── Resources
+│   │   │   │   │   │       └── Info.plist
+│   │   │   │   │   └── libgdexample.macos.template_release.framework
+│   │   │   │   │       └── Resources
+│   │   │   │   │           └── Info.plist
+│   │   │   │   ├── default_env.tres
+│   │   │   │   ├── example.gdextension
+│   │   │   │   ├── icon.png
+│   │   │   │   ├── icon.png.import
+│   │   │   │   ├── main.gd
+│   │   │   │   ├── main.tscn
+│   │   │   │   ├── project.godot
+│   │   │   │   └── test_base.gd
+│   │   │   ├── README.md
+│   │   │   ├── run-tests.sh
+│   │   │   ├── SConstruct
+│   │   │   └── src
+│   │   │       ├── example.cpp
+│   │   │       ├── example.h
+│   │   │       ├── register_types.cpp
+│   │   │       ├── register_types.h
+│   │   │       └── tests.h
+│   │   └── tools
+│   │       ├── android.py
+│   │       ├── common_compiler_flags.py
+│   │       ├── godotcpp.py
+│   │       ├── ios.py
+│   │       ├── linux.py
+│   │       ├── macos.py
+│   │       ├── my_spawn.py
+│   │       ├── __pycache__
+│   │       │   ├── android.cpython-312.pyc
+│   │       │   ├── common_compiler_flags.cpython-312.pyc
+│   │       │   ├── godotcpp.cpython-312.pyc
+│   │       │   ├── ios.cpython-312.pyc
+│   │       │   ├── linux.cpython-312.pyc
+│   │       │   ├── macos.cpython-312.pyc
+│   │       │   ├── my_spawn.cpython-312.pyc
+│   │       │   ├── web.cpython-312.pyc
+│   │       │   └── windows.cpython-312.pyc
+│   │       ├── web.py
+│   │       └── windows.py
+│   ├── include
+│   │   ├── core
+│   │   │   ├── GameLogger.h
+│   │   │   ├── GameManager.h
+│   │   │   └── ResourceRegistry.h
+│   │   ├── economy
+│   │   │   └── Inventory.h
+│   │   ├── register_types.h
+│   │   └── utils
+│   │       └── JsonLoader.h
+│   ├── SConstruct
+│   └── src
+│       ├── core
+│       │   ├── GameLogger.cpp
+│       │   ├── GameLogger.os
+│       │   ├── GameManager.cpp
+│       │   ├── GameManager.os
+│       │   ├── ResourceRegistry.cpp
+│       │   └── ResourceRegistry.os
+│       ├── economy
+│       │   ├── Inventory.cpp
+│       │   └── Inventory.os
+│       ├── register_types.cpp
+│       ├── register_types.os
+│       └── utils
+│           ├── JsonLoader.cpp
+│           └── JsonLoader.os
+├── godot
+│   ├── barren_yield.gdextension
+│   ├── barren_yield.gdextension.uid
+│   ├── bin
+│   │   └── libbarrenyield.linux.template_debug.x86_64.so
+│   ├── data
+│   │   └── registry
+│   │       └── resources.json
+│   ├── project.godot
+│   └── scenes
+│       ├── main.gd
+│       ├── main.gd.uid
+│       └── Main.tscn
+├── README
+│   └── DevelopmentPlan.md
+└── structure.txt
+
+69 directories, 2940 files
